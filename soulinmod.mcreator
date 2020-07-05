@@ -552,6 +552,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mail_sachel"
+    },
+    {
+      "name": "GlowingNectar",
+      "type": "fluid",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowing_nectar"
+    },
+    {
+      "name": "GlowingNectarMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowing_nectar_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -581,6 +607,7 @@
   ],
   "language_map": {
     "en_us": {
+      "item.soulinmod.glowing_nectar_bucket": "GlowingNectar Bucket",
       "item.soulinmod.glitter_and_gold.desc": "Barns Courtney - Glitter And Gold",
       "item.soulinmod.brown_dye_edible": "Brown Dye (edible)",
       "block.soulinmod.spookyblock": "Spookyblock",
@@ -617,7 +644,8 @@
       "block.soulinmod.void_animated": "Void Animated",
       "item.soulinmod.magenta_dye_edible": "Magenta Dye (edible)",
       "item.soulinmod.nectar_bucket": "Nectar Bucket",
-      "item.soulinmod.orange_dye_edible": "Orange Dye (edible)"
+      "item.soulinmod.orange_dye_edible": "Orange Dye (edible)",
+      "fluid.glowing_nectar": "GlowingNectar"
     }
   },
   "workspaceSettings": {

@@ -1,4 +1,5 @@
 {
+  "item.soulinmod.glowing_nectar_bucket": "GlowingNectar Bucket",
   "item.soulinmod.glitter_and_gold.desc": "Barns Courtney - Glitter And Gold",
   "item.soulinmod.brown_dye_edible": "Brown Dye (edible)",
   "block.soulinmod.spookyblock": "Spookyblock",
@@ -35,5 +36,6 @@
   "block.soulinmod.void_animated": "Void Animated",
   "item.soulinmod.magenta_dye_edible": "Magenta Dye (edible)",
   "item.soulinmod.nectar_bucket": "Nectar Bucket",
-  "item.soulinmod.orange_dye_edible": "Orange Dye (edible)"
+  "item.soulinmod.orange_dye_edible": "Orange Dye (edible)",
+  "fluid.glowing_nectar": "GlowingNectar"
 }

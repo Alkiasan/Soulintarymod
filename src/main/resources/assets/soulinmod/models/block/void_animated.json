@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "soulinmod:blocks/voidanimated",
+    "down": "soulinmod:blocks/voidanimfix",
     "up": "soulinmod:blocks/voidanimfix",
     "north": "soulinmod:blocks/voidanimfix",
     "east": "soulinmod:blocks/voidanimfix",
     "south": "soulinmod:blocks/voidanimfix",
     "west": "soulinmod:blocks/voidanimfix",
-    "particle": "soulinmod:blocks/voidanimated"
+    "particle": "soulinmod:blocks/voidanimfix"
   }
 }

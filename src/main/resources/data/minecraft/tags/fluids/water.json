@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "soulinmod:nectar",
-    "soulinmod:nectar_flowing"
+    "soulinmod:nectar_flowing",
+    "soulinmod:glowing_nectar",
+    "soulinmod:glowing_nectar_flowing"
   ]
 }

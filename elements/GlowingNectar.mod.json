@@ -1,0 +1,22 @@
+{
+  "_fv": 8,
+  "_type": "fluid",
+  "definition": {
+    "name": "GlowingNectar",
+    "textureStill": "nectarglowingblue",
+    "textureFlowing": "nectarglowflow",
+    "luminosity": 10,
+    "density": 20,
+    "viscosity": 10,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:SoulItems"
+    },
+    "spawnWorldTypes": [],
+    "onEntityCollides": {
+      "name": "GlowingNectarMobplayerCollidesBlock"
+    }
+  }
+}
