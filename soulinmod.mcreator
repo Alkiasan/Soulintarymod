@@ -578,6 +578,44 @@
           }
         ]
       }
+    },
+    {
+      "name": "ExplosiveVoidBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explosive_void_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExplosiveVoid",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explosive_void"
     }
   ],
   "variable_elements": [
@@ -624,6 +662,7 @@
       "item.soulinmod.gray_dye_edible": "Gray Dye (edible)",
       "item.soulinmod.dark_matter": "Dark Matter",
       "item.soulinmod.mail_sachel": "Mail Sachel",
+      "block.soulinmod.explosive_void": "Explosive Void",
       "item.soulinmod.cyan_dye_edible": "Cyan Dye (edible)",
       "item.soulinmod.memory_of_the_lost": "Memory Of The Lost",
       "itemGroup.tabsoul_items": "Soulintary",
