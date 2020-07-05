@@ -2,12 +2,12 @@
   "_fv": 8,
   "_type": "block",
   "definition": {
-    "texture": "placeholderblock",
-    "textureTop": "placeholderblock",
-    "textureLeft": "placeholderblock",
-    "textureFront": "placeholderblock",
-    "textureRight": "placeholderblock",
-    "textureBack": "placeholderblock",
+    "texture": "explvoid2",
+    "textureTop": "explvoid2",
+    "textureLeft": "explvoid2",
+    "textureFront": "explvoid2",
+    "textureRight": "explvoid2",
+    "textureBack": "explvoid2",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -85,7 +85,7 @@
       "name": "ExplosiveVoidBlockDestroyedByPlayer"
     },
     "onDestroyedByExplosion": {
-      "name": "ExplosiveVoidBlockDestroyedByPlayer"
+      "name": "ExplosiveVoidBlockDestroyedByExplosion"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

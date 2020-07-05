@@ -27,6 +27,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.alkia.soulinmod.procedures.ExplosiveVoidBlockDestroyedByPlayerProcedure;
+import net.alkia.soulinmod.procedures.ExplosiveVoidBlockDestroyedByExplosionProcedure;
 import net.alkia.soulinmod.itemgroup.SoulItemsItemGroup;
 import net.alkia.soulinmod.SoulinmodModElements;
 
@@ -81,6 +82,7 @@ public class ExplosiveVoidBlock extends SoulinmodModElements.ModElement {
 			int z = pos.getZ();
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
@@ -102,7 +104,7 @@ public class ExplosiveVoidBlock extends SoulinmodModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				ExplosiveVoidBlockDestroyedByPlayerProcedure.executeProcedure($_dependencies);
+				ExplosiveVoidBlockDestroyedByExplosionProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}
