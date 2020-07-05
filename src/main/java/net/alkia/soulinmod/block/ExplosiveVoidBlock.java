@@ -48,7 +48,7 @@ public class ExplosiveVoidBlock extends SoulinmodModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 10f).lightValue(0).harvestLevel(1)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 0f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("explosive_void");
 		}
