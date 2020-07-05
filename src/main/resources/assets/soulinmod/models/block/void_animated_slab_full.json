@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "soulinmod:blocks/void_block",
+    "particle": "soulinmod:blocks/void_block"
+  }
+}

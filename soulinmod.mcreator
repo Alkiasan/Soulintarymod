@@ -1,0 +1,640 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "BemboFeatherRightClicked",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bembo_feather_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BemboFeatherOnPlayerStoppedUsing",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bembo_feather_on_player_stopped_using",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BemboFeather",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bembo_feather"
+    },
+    {
+      "name": "SoulItems",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_items"
+    },
+    {
+      "name": "SpookyblockPlayerStartsToDestroy",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spookyblock_player_starts_to_destroy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spookyblock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spookyblock"
+    },
+    {
+      "name": "VoidEssense",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_essense"
+    },
+    {
+      "name": "ProtectedBiome",
+      "type": "biome",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "protected_biome"
+    },
+    {
+      "name": "Specimen",
+      "type": "biome",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "specimen"
+    },
+    {
+      "name": "VoidAnimated",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_animated"
+    },
+    {
+      "name": "VoidAnimatedStairs",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_animated_stairs"
+    },
+    {
+      "name": "VoidAnimatedSlab",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_animated_slab"
+    },
+    {
+      "name": "VoidBlock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_block"
+    },
+    {
+      "name": "PlantCoreC",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plant_core_c"
+    },
+    {
+      "name": "HardenedVoid",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_void"
+    },
+    {
+      "name": "SoulintaryMusic",
+      "type": "tab",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soulintary_music"
+    },
+    {
+      "name": "DarkMatter",
+      "type": "musicdisc",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_matter"
+    },
+    {
+      "name": "GlitterAndGold",
+      "type": "musicdisc",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitter_and_gold"
+    },
+    {
+      "name": "MemoryOfTheLost",
+      "type": "musicdisc",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "memory_of_the_lost"
+    },
+    {
+      "name": "BlackDyeEdible",
+      "type": "food",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_dye_edible"
+    },
+    {
+      "name": "BlueDyeEdible",
+      "type": "food",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_dye_edible"
+    },
+    {
+      "name": "BrownDyeEdible",
+      "type": "food",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brown_dye_edible"
+    },
+    {
+      "name": "CyanDyeEdible",
+      "type": "food",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cyan_dye_edible"
+    },
+    {
+      "name": "GrayDyeEdible",
+      "type": "food",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gray_dye_edible"
+    },
+    {
+      "name": "GreenDyeEdible",
+      "type": "food",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_dye_edible"
+    },
+    {
+      "name": "LightBlueDyeEdible",
+      "type": "food",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_blue_dye_edible"
+    },
+    {
+      "name": "LightGrayDyeEdible",
+      "type": "food",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_gray_dye_edible"
+    },
+    {
+      "name": "LimeDyeEdible",
+      "type": "food",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lime_dye_edible"
+    },
+    {
+      "name": "MagentaDyeEdible",
+      "type": "food",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_dye_edible"
+    },
+    {
+      "name": "OrangeDyeEdible",
+      "type": "food",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_dye_edible"
+    },
+    {
+      "name": "PinkDyeEdible",
+      "type": "food",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pink_dye_edible"
+    },
+    {
+      "name": "PurpleDyeEdible",
+      "type": "food",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_dye_edible"
+    },
+    {
+      "name": "RedDyeEdible",
+      "type": "food",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_dye_edible"
+    },
+    {
+      "name": "WhiteDyeEdible",
+      "type": "food",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_dye_edible"
+    },
+    {
+      "name": "YellowDyeEdible",
+      "type": "food",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yellow_dye_edible"
+    },
+    {
+      "name": "MortarAndPestle",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mortar_and_pestle"
+    },
+    {
+      "name": "BlackDyeEdibleRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_dye_edible_recipe"
+    },
+    {
+      "name": "BlueDyeEdibleRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_dye_edible_recipe"
+    },
+    {
+      "name": "BrownDyeEdibleRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brown_dye_edible_recipe"
+    },
+    {
+      "name": "CyanDyeEdibleRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cyan_dye_edible_recipe"
+    },
+    {
+      "name": "GrayDyeEdibleRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gray_dye_edible_recipe"
+    },
+    {
+      "name": "GreenDyeEdibleRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_dye_edible_recipe"
+    },
+    {
+      "name": "LightBlueDyeEdibleRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_blue_dye_edible_recipe"
+    },
+    {
+      "name": "LightGrayDyeEdibleRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_gray_dye_edible_recipe"
+    },
+    {
+      "name": "LimeDyeEdibleRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lime_dye_edible_recipe"
+    },
+    {
+      "name": "MagentaDyeEdibleRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_dye_edible_recipe"
+    },
+    {
+      "name": "OrangeDyeEdibleRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_dye_edible_recipe"
+    },
+    {
+      "name": "PinkDyeEdibleRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pink_dye_edible_recipe"
+    },
+    {
+      "name": "PurpleDyeEdibleRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_dye_edible_recipe"
+    },
+    {
+      "name": "RedDyeEdibleRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_dye_edible_recipe"
+    },
+    {
+      "name": "WhiteDyeEdibleRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_dye_edible_recipe"
+    },
+    {
+      "name": "YellowDyeEdibleRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yellow_dye_edible_recipe"
+    },
+    {
+      "name": "NectarMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nectar_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nectar",
+      "type": "fluid",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nectar"
+    },
+    {
+      "name": "BemboGUI",
+      "type": "gui",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bembo_gui"
+    },
+    {
+      "name": "MailSachel",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mail_sachel"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "tickvarbird",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "darkmattermusic",
+      "file": "les_friction_-_dark_matter",
+      "category": "record"
+    },
+    {
+      "name": "glitterandgold",
+      "file": "glitterandgold",
+      "category": "record"
+    },
+    {
+      "name": "memoryofthelost",
+      "file": "code_vein_ost__memory_of_the_lost",
+      "category": "record"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.soulinmod.glitter_and_gold.desc": "Barns Courtney - Glitter And Gold",
+      "item.soulinmod.brown_dye_edible": "Brown Dye (edible)",
+      "block.soulinmod.spookyblock": "Spookyblock",
+      "block.soulinmod.plant_core_c": "Plant Core C",
+      "block.soulinmod.void_animated_stairs": "Void Stairs",
+      "itemGroup.tabsoulintary_music": "Soulintary Music",
+      "item.soulinmod.white_dye_edible": "White Dye (edible)",
+      "item.soulinmod.memory_of_the_lost.desc": "Code Vein - Memory Of The Lost",
+      "item.soulinmod.pink_dye_edible": "Pink Dye (edible)",
+      "fluid.nectar": "Nectar",
+      "item.soulinmod.bembo_feather": "Bembo Feather",
+      "item.soulinmod.dark_matter.desc": "Les Friction - Dark Matter",
+      "item.soulinmod.red_dye_edible": "Red Dye (edible)",
+      "item.soulinmod.gray_dye_edible": "Gray Dye (edible)",
+      "item.soulinmod.dark_matter": "Dark Matter",
+      "item.soulinmod.mail_sachel": "Mail Sachel",
+      "item.soulinmod.cyan_dye_edible": "Cyan Dye (edible)",
+      "item.soulinmod.memory_of_the_lost": "Memory Of The Lost",
+      "itemGroup.tabsoul_items": "Soulintary",
+      "item.soulinmod.green_dye_edible": "Green Dye (edible)",
+      "item.soulinmod.lime_dye_edible": "Lime Dye (edible)",
+      "item.soulinmod.yellow_dye_edible": "Yellow Dye (edible)",
+      "item.soulinmod.light_gray_dye_edible": "Light Gray Dye (edible)",
+      "item.soulinmod.mortar_and_pestle": "Mortar And Pestle",
+      "block.soulinmod.hardened_void": "Hardened Void",
+      "item.soulinmod.black_dye_edible": "Black Dye (edible)",
+      "block.soulinmod.void_animated_slab": "Void Animated",
+      "item.soulinmod.purple_dye_edible": "Black Dye (edible)",
+      "item.soulinmod.glitter_and_gold": "Glitter And Gold",
+      "item.soulinmod.blue_dye_edible": "Blue Dye (edible)",
+      "item.soulinmod.light_blue_dye_edible": "Light Blue Dye (edible)",
+      "item.soulinmod.void_essense": "Void Essense",
+      "block.soulinmod.void_block": "Void Block",
+      "block.soulinmod.void_animated": "Void Animated",
+      "item.soulinmod.magenta_dye_edible": "Magenta Dye (edible)",
+      "item.soulinmod.nectar_bucket": "Nectar Bucket",
+      "item.soulinmod.orange_dye_edible": "Orange Dye (edible)"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "soulinmod",
+    "modName": "Soulinmod",
+    "version": "1.0.0",
+    "author": "Ben, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.14.4",
+    "modElementsPackage": "net.alkia.soulinmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000322116
+}

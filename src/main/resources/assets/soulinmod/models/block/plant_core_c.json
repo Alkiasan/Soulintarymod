@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soulinmod:blocks/plant_core_c",
+    "up": "soulinmod:blocks/plant_core_c",
+    "north": "soulinmod:blocks/plant_core_c",
+    "east": "soulinmod:blocks/plant_core_c",
+    "south": "soulinmod:blocks/plant_core_c",
+    "west": "soulinmod:blocks/plant_core_c",
+    "particle": "soulinmod:blocks/plant_core_c"
+  }
+}

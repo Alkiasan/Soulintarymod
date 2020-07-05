@@ -1,0 +1,20 @@
+{
+  "_fv": 8,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "lilydiscmemory",
+    "name": "Memory Of The Lost",
+    "description": "Code Vein - Memory Of The Lost",
+    "creativeTab": {
+      "value": "CUSTOM:SoulintaryMusic"
+    },
+    "music": {
+      "value": "CUSTOM:memoryofthelost"
+    },
+    "specialInfo": [
+      "Åò5A music disc that plays a",
+      "Åò5sombre melody."
+    ],
+    "hasGlow": false
+  }
+}

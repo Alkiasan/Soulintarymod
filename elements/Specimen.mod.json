@@ -1,0 +1,116 @@
+{
+  "_fv": 8,
+  "_type": "biome",
+  "definition": {
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "generateLakes": true,
+    "treeType": 0,
+    "vanillaTreeType": "Big trees",
+    "minHeight": 7,
+    "spawnVines": false,
+    "treeVines": {
+      "value": ""
+    },
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "customColors": true,
+    "airColor": {
+      "value": -5916161,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -11423895,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -12291626,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 3,
+    "grassPerChunk": 7,
+    "flowersPerChunk": 7,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "spawnBiome": false,
+    "biomeWeight": 0,
+    "biomeType": "WARM",
+    "biomeCategory": "FOREST",
+    "parent": {
+      "value": "No parent"
+    },
+    "biomeDictionaryTypes": [],
+    "spawnList": [
+      {
+        "value": "EntityAnimal"
+      },
+      {
+        "value": "EntityChicken"
+      },
+      {
+        "value": "EntityCod"
+      },
+      {
+        "value": "EntityCow"
+      },
+      {
+        "value": "EntityDonkey"
+      },
+      {
+        "value": "EntityDolphin"
+      },
+      {
+        "value": "EntityFox"
+      },
+      {
+        "value": "EntityLlama"
+      },
+      {
+        "value": "EntityParrot"
+      },
+      {
+        "value": "EntityPig"
+      },
+      {
+        "value": "EntityRabbit"
+      },
+      {
+        "value": "EntitySalmon"
+      },
+      {
+        "value": "EntitySheep"
+      },
+      {
+        "value": "EntitySquid"
+      },
+      {
+        "value": "EntityTropicalFish"
+      },
+      {
+        "value": "EntityTurtle"
+      },
+      {
+        "value": "EntityWolf"
+      }
+    ]
+  }
+}

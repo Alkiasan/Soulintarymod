@@ -1,0 +1,24 @@
+{
+  "_fv": 8,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "blue_dye",
+    "customModelName": "Normal",
+    "name": "Blue Dye (edible)",
+    "specialInfo": [
+      "Åò5An edible variant of blue dye."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SoulItems"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

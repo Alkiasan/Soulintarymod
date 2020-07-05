@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "soulinmod:blocks/void_block",
+    "top": "soulinmod:blocks/void_block",
+    "side": "soulinmod:blocks/void_block"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soulinmod:blocks/placeholderblock",
+    "up": "soulinmod:blocks/placeholderblock",
+    "north": "soulinmod:blocks/placeholderblock",
+    "east": "soulinmod:blocks/placeholderblock",
+    "south": "soulinmod:blocks/placeholderblock",
+    "west": "soulinmod:blocks/placeholderblock",
+    "particle": "soulinmod:blocks/placeholderblock"
+  }
+}

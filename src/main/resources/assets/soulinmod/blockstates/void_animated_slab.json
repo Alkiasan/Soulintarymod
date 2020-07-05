@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "soulinmod:block/void_animated_slab"
+    },
+    "type=top": {
+      "model": "soulinmod:block/void_animated_slab_top"
+    },
+    "type=double": {
+      "model": "soulinmod:block/void_animated_slab_full"
+    }
+  }
+}

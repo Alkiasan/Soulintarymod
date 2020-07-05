@@ -1,0 +1,16 @@
+{
+  "group": "soulinmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "soulinmod:mortar_and_pestle"
+    },
+    {
+      "item": "minecraft:light_blue_dye"
+    }
+  ],
+  "result": {
+    "item": "soulinmod:light_blue_dye_edible",
+    "count": 1
+  }
+}

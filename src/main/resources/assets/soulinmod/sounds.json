@@ -1,0 +1,29 @@
+{
+  "darkmattermusic": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soulinmod:les_friction_-_dark_matter",
+        "stream": true
+      }
+    ]
+  },
+  "glitterandgold": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soulinmod:glitterandgold",
+        "stream": true
+      }
+    ]
+  },
+  "memoryofthelost": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soulinmod:code_vein_ost__memory_of_the_lost",
+        "stream": true
+      }
+    ]
+  }
+}

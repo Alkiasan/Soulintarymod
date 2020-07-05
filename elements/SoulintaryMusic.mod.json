@@ -1,0 +1,11 @@
+{
+  "_fv": 8,
+  "_type": "tab",
+  "definition": {
+    "name": "Soulintary Music",
+    "icon": {
+      "value": "Items.RECORD_13"
+    },
+    "showSearch": true
+  }
+}

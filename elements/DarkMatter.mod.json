@@ -1,0 +1,19 @@
+{
+  "_fv": 8,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "darkmatterdisc",
+    "name": "Dark Matter",
+    "description": "Les Friction - Dark Matter",
+    "creativeTab": {
+      "value": "CUSTOM:SoulintaryMusic"
+    },
+    "music": {
+      "value": "CUSTOM:darkmattermusic"
+    },
+    "specialInfo": [
+      "Åò5A music disc that plays a confused melody."
+    ],
+    "hasGlow": false
+  }
+}

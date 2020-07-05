@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "soulinmod:block/hardened_void"
+    }
+  }
+}

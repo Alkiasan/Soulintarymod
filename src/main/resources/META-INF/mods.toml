@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+
+[[mods]]
+modId="soulinmod"
+version="1.0.0"
+displayName="Soulinmod"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="Ben, MCreator"
+
+[[dependencies.soulinmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.14.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+

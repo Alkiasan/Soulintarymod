@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "soulinmod:blocks/void_block",
+    "top": "soulinmod:blocks/void_block",
+    "side": "soulinmod:blocks/void_block"
+  }
+}
