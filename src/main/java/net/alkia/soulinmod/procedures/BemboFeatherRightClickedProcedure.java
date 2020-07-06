@@ -46,7 +46,7 @@ public class BemboFeatherRightClickedProcedure extends SoulinmodModElements.ModE
 		if ((entity.isSneaking())) {
 			if (((entity.getMotion().getY()) > 0)) {
 				if (world instanceof ServerWorld) {
-					((ServerWorld) world).spawnParticle(ParticleTypes.CLOUD, x, y, z, (int) 20, 2, 2, 2, 4);
+					((ServerWorld) world).spawnParticle(ParticleTypes.CLOUD, x, y, z, (int) 10, 2, 2, 2, 4);
 				}
 				entity.setMotion(0, 2, 0);
 				if (entity instanceof LivingEntity)

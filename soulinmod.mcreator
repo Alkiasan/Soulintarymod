@@ -676,6 +676,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "english_potion"
+    },
+    {
+      "name": "Nectard",
+      "type": "potion",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nectard"
     }
   ],
   "variable_elements": [
