@@ -30,11 +30,11 @@
     "creativeTab": {
       "value": "CUSTOM:SoulItems"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:VoidEssense"
+      "value": "CUSTOM:VoidTendril"
     },
-    "dropAmount": 1,
+    "dropAmount": 3,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -63,7 +63,7 @@
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "FLAME"
