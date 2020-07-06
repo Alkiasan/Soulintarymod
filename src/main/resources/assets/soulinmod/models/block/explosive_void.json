@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "soulinmod:blocks/explvoid2",
-    "up": "soulinmod:blocks/explvoid2",
-    "north": "soulinmod:blocks/explvoid2",
-    "east": "soulinmod:blocks/explvoid2",
-    "south": "soulinmod:blocks/explvoid2",
-    "west": "soulinmod:blocks/explvoid2",
-    "particle": "soulinmod:blocks/explvoid2"
+    "down": "soulinmod:blocks/explosive_voidv4",
+    "up": "soulinmod:blocks/explosive_voidv4",
+    "north": "soulinmod:blocks/explosive_voidv4",
+    "east": "soulinmod:blocks/explosive_voidv4",
+    "south": "soulinmod:blocks/explosive_voidv4",
+    "west": "soulinmod:blocks/explosive_voidv4",
+    "particle": "soulinmod:blocks/explosive_voidv4"
   }
 }

@@ -39,7 +39,7 @@ public class ExplosiveVoidBlock extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:explosive_void")
 	public static final Block block = null;
 	public ExplosiveVoidBlock(SoulinmodModElements instance) {
-		super(instance, 57);
+		super(instance, 6);
 	}
 
 	@Override
