@@ -1,0 +1,22 @@
+{
+  "_fv": 8,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "conditionxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"condition_input\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"CONDITION\"><block type=\"entity_haspotioneffect\"><field name=\"potion\">CUSTOM:EnglishPotion</field><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value></block></xml>",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "englishwithibrahim.png",
+          "name": "englishwithibrahim.png",
+          "x": 206,
+          "y": 368
+        }
+      }
+    ],
+    "baseTexture": "",
+    "baseTextureW": 0,
+    "baseTextureH": 0
+  }
+}
