@@ -21,6 +21,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.alkia.soulinmod.itemgroup.SoulItemsItemGroup;
+import net.alkia.soulinmod.item.VoidChunkItem;
 import net.alkia.soulinmod.SoulinmodModElements;
 
 import java.util.List;
@@ -64,7 +65,7 @@ public class VoidBlockBlock extends SoulinmodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(VoidChunkItem.block, (int) (1)));
 		}
 	}
 }

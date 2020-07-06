@@ -33,7 +33,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:VoidChunk"
     },
     "dropAmount": 1,
     "isBeaconBase": false,

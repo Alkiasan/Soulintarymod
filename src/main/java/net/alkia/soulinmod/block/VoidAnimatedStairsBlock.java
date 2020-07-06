@@ -23,6 +23,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.alkia.soulinmod.itemgroup.SoulItemsItemGroup;
+import net.alkia.soulinmod.item.VoidChunkItem;
 import net.alkia.soulinmod.SoulinmodModElements;
 
 import java.util.List;
@@ -44,7 +45,7 @@ public class VoidAnimatedStairsBlock extends SoulinmodModElements.ModElement {
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
 			super(new Block(Block.Properties.create(Material.ROCK)).getDefaultState(),
-					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.8f, 10f).lightValue(0));
+					Block.Properties.create(Material.ROCK).sound(SoundType.WET_GRASS).hardnessAndResistance(1.8f, 10f).lightValue(0));
 			setRegistryName("void_animated_stairs");
 		}
 
@@ -70,7 +71,7 @@ public class VoidAnimatedStairsBlock extends SoulinmodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(VoidChunkItem.block, (int) (1)));
 		}
 	}
 }
