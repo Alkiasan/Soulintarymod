@@ -558,7 +558,7 @@
       "type": "fluid",
       "sortid": 55,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "glowing_nectar"
     },
@@ -649,6 +649,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "VoidChunk",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_chunk"
     }
   ],
   "variable_elements": [
@@ -696,6 +705,7 @@
       "item.soulinmod.dark_matter": "Dark Matter",
       "item.soulinmod.mail_sachel": "Mail Sachel",
       "block.soulinmod.explosive_void": "Explosive Void",
+      "item.soulinmod.void_chunk": "Void Chunk",
       "item.soulinmod.cyan_dye_edible": "Cyan Dye (edible)",
       "item.soulinmod.memory_of_the_lost": "Memory Of The Lost",
       "itemGroup.tabsoul_items": "Soulintary",
@@ -706,7 +716,7 @@
       "item.soulinmod.mortar_and_pestle": "Mortar And Pestle",
       "block.soulinmod.hardened_void": "Hardened Void",
       "item.soulinmod.black_dye_edible": "Black Dye (edible)",
-      "block.soulinmod.void_animated_slab": "Void Animated",
+      "block.soulinmod.void_animated_slab": "Void Slab",
       "item.soulinmod.purple_dye_edible": "Black Dye (edible)",
       "item.soulinmod.glitter_and_gold": "Glitter And Gold",
       "item.soulinmod.blue_dye_edible": "Blue Dye (edible)",
