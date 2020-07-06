@@ -34,7 +34,7 @@ public class VoidAnimatedSlabBlock extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:void_animated_slab")
 	public static final Block block = null;
 	public VoidAnimatedSlabBlock(SoulinmodModElements instance) {
-		super(instance, 10);
+		super(instance, 3);
 	}
 
 	@Override

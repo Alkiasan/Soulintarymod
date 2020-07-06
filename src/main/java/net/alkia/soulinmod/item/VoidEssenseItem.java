@@ -21,7 +21,7 @@ public class VoidEssenseItem extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:void_essense")
 	public static final Item block = null;
 	public VoidEssenseItem(SoulinmodModElements instance) {
-		super(instance, 5);
+		super(instance, 9);
 	}
 
 	@Override

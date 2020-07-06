@@ -33,7 +33,7 @@ public class VoidAnimatedBlock extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:void_animated")
 	public static final Block block = null;
 	public VoidAnimatedBlock(SoulinmodModElements instance) {
-		super(instance, 8);
+		super(instance, 4);
 	}
 
 	@Override

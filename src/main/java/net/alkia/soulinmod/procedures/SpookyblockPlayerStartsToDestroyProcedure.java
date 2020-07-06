@@ -10,7 +10,7 @@ import net.alkia.soulinmod.SoulinmodModElements;
 @SoulinmodModElements.ModElement.Tag
 public class SpookyblockPlayerStartsToDestroyProcedure extends SoulinmodModElements.ModElement {
 	public SpookyblockPlayerStartsToDestroyProcedure(SoulinmodModElements instance) {
-		super(instance, 4);
+		super(instance, 39);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

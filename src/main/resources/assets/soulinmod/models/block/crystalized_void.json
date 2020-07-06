@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soulinmod:blocks/crystalized_void",
+    "up": "soulinmod:blocks/crystalized_void",
+    "north": "soulinmod:blocks/crystalized_void",
+    "east": "soulinmod:blocks/crystalized_void",
+    "south": "soulinmod:blocks/crystalized_void",
+    "west": "soulinmod:blocks/crystalized_void",
+    "particle": "soulinmod:blocks/crystalized_void"
+  }
+}

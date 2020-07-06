@@ -2,12 +2,12 @@
   "_fv": 8,
   "_type": "block",
   "definition": {
-    "texture": "explosive_voidv4",
-    "textureTop": "explosive_voidv4",
-    "textureLeft": "explosive_voidv4",
-    "textureFront": "explosive_voidv4",
-    "textureRight": "explosive_voidv4",
-    "textureBack": "explosive_voidv4",
+    "texture": "black_block",
+    "textureTop": "black_block",
+    "textureLeft": "black_block",
+    "textureFront": "black_block",
+    "textureRight": "black_block",
+    "textureBack": "black_block",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -20,19 +20,19 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Explosive Void",
+    "name": "Black Block",
     "specialInfo": [
-      "Void go boom now"
+      "bye bye sight"
     ],
-    "hardness": 0.5,
-    "resistance": 0.0,
+    "hardness": 50.0,
+    "resistance": 20.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:SoulItems"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -41,7 +41,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "BARRIER"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -52,18 +52,18 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 5,
+    "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "HONEY"
     },
     "luminance": 0.0,
-    "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "unbreakable": true,
+    "breakHarvestLevel": 12,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -81,12 +81,6 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
-    "onDestroyedByPlayer": {
-      "name": "ExplosiveVoidBlockDestroyedByPlayer"
-    },
-    "onDestroyedByExplosion": {
-      "name": "ExplosiveVoidBlockDestroyedByExplosion"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

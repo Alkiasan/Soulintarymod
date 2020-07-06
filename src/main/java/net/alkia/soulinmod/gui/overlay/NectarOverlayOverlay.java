@@ -25,7 +25,7 @@ import com.mojang.blaze3d.platform.GlStateManager;
 @SoulinmodModElements.ModElement.Tag
 public class NectarOverlayOverlay extends SoulinmodModElements.ModElement {
 	public NectarOverlayOverlay(SoulinmodModElements instance) {
-		super(instance, 59);
+		super(instance, 64);
 	}
 
 	@Override

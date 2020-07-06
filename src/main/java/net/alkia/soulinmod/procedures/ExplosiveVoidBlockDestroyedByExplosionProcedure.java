@@ -8,7 +8,7 @@ import net.alkia.soulinmod.SoulinmodModElements;
 @SoulinmodModElements.ModElement.Tag
 public class ExplosiveVoidBlockDestroyedByExplosionProcedure extends SoulinmodModElements.ModElement {
 	public ExplosiveVoidBlockDestroyedByExplosionProcedure(SoulinmodModElements instance) {
-		super(instance, 58);
+		super(instance, 63);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

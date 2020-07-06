@@ -36,7 +36,7 @@ public class GlowingNectarBlock extends SoulinmodModElements.ModElement {
 	private FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public GlowingNectarBlock(SoulinmodModElements instance) {
-		super(instance, 55);
+		super(instance, 29);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

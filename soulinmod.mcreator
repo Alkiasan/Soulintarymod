@@ -721,6 +721,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "void_tendril_essence"
+    },
+    {
+      "name": "CrystalizedVoid",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystalized_void"
+    },
+    {
+      "name": "BlackBlock",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_block"
     }
   ],
   "variable_elements": [
@@ -751,6 +769,7 @@
   "language_map": {
     "en_us": {
       "item.soulinmod.glowing_nectar_bucket": "GlowingNectar Bucket",
+      "block.soulinmod.crystalized_void": "Crystalized Void",
       "effect.nectard": "Nectar\u0027d",
       "block.soulinmod.spookyblock": "Spookyblock",
       "item.minecraft.potion.effect.nectard": "Nectard",
@@ -775,6 +794,7 @@
       "item.minecraft.splash_potion.effect.english_potion": "Splash English Potion",
       "block.soulinmod.void_animated": "Void Animated",
       "item.minecraft.tipped_arrow.effect.nectard": "Arrow of Nectard",
+      "block.soulinmod.black_block": "Black Block",
       "item.soulinmod.glitter_and_gold.desc": "Barns Courtney - Glitter And Gold",
       "item.soulinmod.brown_dye_edible": "Brown Dye (edible)",
       "effect.english_potion": "English Potion",

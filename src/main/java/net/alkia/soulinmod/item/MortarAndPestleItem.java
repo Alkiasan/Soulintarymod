@@ -21,7 +21,7 @@ public class MortarAndPestleItem extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:mortar_and_pestle")
 	public static final Item block = null;
 	public MortarAndPestleItem(SoulinmodModElements instance) {
-		super(instance, 35);
+		super(instance, 10);
 	}
 
 	@Override

@@ -23,7 +23,7 @@ public class DarkMatterItem extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:dark_matter")
 	public static final Item block = null;
 	public DarkMatterItem(SoulinmodModElements instance) {
-		super(instance, 16);
+		super(instance, 33);
 	}
 
 	@Override

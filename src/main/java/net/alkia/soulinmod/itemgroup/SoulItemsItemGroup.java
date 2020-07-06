@@ -13,7 +13,7 @@ import net.alkia.soulinmod.SoulinmodModElements;
 @SoulinmodModElements.ModElement.Tag
 public class SoulItemsItemGroup extends SoulinmodModElements.ModElement {
 	public SoulItemsItemGroup(SoulinmodModElements instance) {
-		super(instance, 3);
+		super(instance, 38);
 	}
 
 	@Override

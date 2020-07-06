@@ -21,7 +21,7 @@ public class EnglishPotionPotion extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:english_potion")
 	public static final Potion potionType = null;
 	public EnglishPotionPotion(SoulinmodModElements instance) {
-		super(instance, 59);
+		super(instance, 65);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

@@ -25,7 +25,7 @@ public class HardenedVoidBlock extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:hardened_void")
 	public static final Block block = null;
 	public HardenedVoidBlock(SoulinmodModElements instance) {
-		super(instance, 14);
+		super(instance, 5);
 	}
 
 	@Override

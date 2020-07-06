@@ -2,12 +2,12 @@
   "_fv": 8,
   "_type": "block",
   "definition": {
-    "texture": "explosive_voidv4",
-    "textureTop": "explosive_voidv4",
-    "textureLeft": "explosive_voidv4",
-    "textureFront": "explosive_voidv4",
-    "textureRight": "explosive_voidv4",
-    "textureBack": "explosive_voidv4",
+    "texture": "crystalized_void",
+    "textureTop": "crystalized_void",
+    "textureLeft": "crystalized_void",
+    "textureFront": "crystalized_void",
+    "textureRight": "crystalized_void",
+    "textureBack": "crystalized_void",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -20,19 +20,19 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Explosive Void",
+    "name": "Crystalized Void",
     "specialInfo": [
-      "Void go boom now"
+      "Crystalized void template"
     ],
-    "hardness": 0.5,
-    "resistance": 0.0,
+    "hardness": 1.6,
+    "resistance": 6.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:SoulItems"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -53,15 +53,15 @@
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
     "flammability": 5,
-    "fireSpreadSpeed": 0,
+    "fireSpreadSpeed": 35,
     "isLadder": false,
     "slipperiness": 0.6,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GLASS"
     },
-    "luminance": 0.0,
+    "luminance": 0.66,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
@@ -81,18 +81,12 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
-    "onDestroyedByPlayer": {
-      "name": "ExplosiveVoidBlockDestroyedByPlayer"
-    },
-    "onDestroyedByExplosion": {
-      "name": "ExplosiveVoidBlockDestroyedByExplosion"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "frequencyPerChunks": 1,
+    "frequencyOnChunk": 1,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 0
   }
 }

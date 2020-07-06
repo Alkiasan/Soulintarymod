@@ -34,7 +34,7 @@ public class VoidAnimatedStairsBlock extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:void_animated_stairs")
 	public static final Block block = null;
 	public VoidAnimatedStairsBlock(SoulinmodModElements instance) {
-		super(instance, 9);
+		super(instance, 2);
 	}
 
 	@Override

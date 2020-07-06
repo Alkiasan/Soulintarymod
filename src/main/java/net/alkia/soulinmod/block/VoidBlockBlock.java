@@ -32,7 +32,7 @@ public class VoidBlockBlock extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:void_block")
 	public static final Block block = null;
 	public VoidBlockBlock(SoulinmodModElements instance) {
-		super(instance, 11);
+		super(instance, 1);
 	}
 
 	@Override
