@@ -29,6 +29,7 @@ import net.minecraft.inventory.container.Container;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.gui.widget.button.Button;
 import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
@@ -322,6 +323,7 @@ public class BemboGUIGui extends SoulinmodModElements.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
+			this.font.drawString("Graphic design is my passion pt 2", 7, 9, -16711885);
 		}
 
 		@Override
@@ -334,6 +336,10 @@ public class BemboGUIGui extends SoulinmodModElements.ModElement {
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
 			minecraft.keyboardListener.enableRepeatEvents(true);
+			this.addButton(new Button(this.guiLeft + 97, this.guiTop + 29, 60, 20, "weeeee", e -> {
+				SoulinmodMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
+				handleButtonAction(entity, 0, x, y, z);
+			}));
 		}
 	}
 

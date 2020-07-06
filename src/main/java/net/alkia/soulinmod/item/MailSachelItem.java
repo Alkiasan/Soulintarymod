@@ -123,7 +123,7 @@ public class MailSachelItem extends SoulinmodModElements.ModElement {
 		}
 
 		private ItemStackHandler createItemHandler() {
-			return new ItemStackHandler(5) {
+			return new ItemStackHandler(6) {
 				@Override
 				public int getSlotLimit(int slot) {
 					return 64;

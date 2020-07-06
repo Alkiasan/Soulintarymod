@@ -21,7 +21,7 @@
     "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "BemboGUI",
-    "inventorySize": 5,
+    "inventorySize": 6,
     "inventoryStackSize": 64
   }
 }
