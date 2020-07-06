@@ -2,6 +2,7 @@
 package net.alkia.soulinmod.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -21,7 +22,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.alkia.soulinmod.itemgroup.SoulItemsItemGroup;
-import net.alkia.soulinmod.item.VoidEssenseItem;
+import net.alkia.soulinmod.item.VoidTendrilItem;
 import net.alkia.soulinmod.SoulinmodModElements;
 
 import java.util.List;
@@ -42,7 +43,8 @@ public class VoidAnimatedBlock extends SoulinmodModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.WET_GRASS).hardnessAndResistance(1.8f, 10f).lightValue(0));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.WET_GRASS).hardnessAndResistance(1.8f, 10f).lightValue(0).harvestLevel(2)
+					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("void_animated");
 		}
 
@@ -63,7 +65,7 @@ public class VoidAnimatedBlock extends SoulinmodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(VoidEssenseItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(VoidTendrilItem.block, (int) (3)));
 		}
 	}
 }
