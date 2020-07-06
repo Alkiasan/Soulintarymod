@@ -39,7 +39,7 @@ public class GrayDyeEdibleItem extends SoulinmodModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("?\uFFFD5An edible variant of gray dye."));
+			list.add(new StringTextComponent("??5An edible variant of gray dye."));
 		}
 
 		@Override
