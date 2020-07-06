@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Void Tendril",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:SoulItems"
     },
     "stackSize": 64,
     "enchantability": 0,
