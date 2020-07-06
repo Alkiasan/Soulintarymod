@@ -5,6 +5,7 @@ import net.minecraft.potion.EffectInstance;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
+import net.alkia.soulinmod.potion.NectardPotion;
 import net.alkia.soulinmod.SoulinmodModElements;
 
 @SoulinmodModElements.ModElement.Tag
@@ -21,5 +22,7 @@ public class NectarMobplayerCollidesBlockProcedure extends SoulinmodModElements.
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
 			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 10, (int) 1));
+		if (entity instanceof LivingEntity)
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(NectardPotion.potion, (int) 10, (int) 1));
 	}
 }

@@ -15,7 +15,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.client.Minecraft;
 
-import net.alkia.soulinmod.potion.EnglishPotionPotion;
+import net.alkia.soulinmod.potion.NectardPotion;
 import net.alkia.soulinmod.SoulinmodModElements;
 
 import java.util.Collection;
@@ -34,7 +34,7 @@ public class NectarOverlayOverlay extends SoulinmodModElements.ModElement {
 	}
 
 	@OnlyIn(Dist.CLIENT)
-	@SubscribeEvent(priority = EventPriority.NORMAL)
+	@SubscribeEvent(priority = EventPriority.HIGH)
 	public void eventHandler(RenderGameOverlayEvent event) {
 		if (!event.isCancelable() && event.getType() == RenderGameOverlayEvent.ElementType.HELMET) {
 			int posX = (event.getWindow().getScaledWidth()) / 2;
@@ -49,7 +49,7 @@ public class NectarOverlayOverlay extends SoulinmodModElements.ModElement {
 					if (entity instanceof LivingEntity) {
 						Collection<EffectInstance> effects = ((LivingEntity) entity).getActivePotionEffects();
 						for (EffectInstance effect : effects) {
-							if (effect.getPotion() == EnglishPotionPotion.potion)
+							if (effect.getPotion() == NectardPotion.potion)
 								return true;
 						}
 					}
@@ -62,12 +62,37 @@ public class NectarOverlayOverlay extends SoulinmodModElements.ModElement {
 						GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 				GlStateManager.color4f(1.0F, 1.0F, 1.0F, 1.0F);
 				GlStateManager.disableAlphaTest();
-				Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("soulinmod:textures/englishwithibrahim.png"));
-				Minecraft.getInstance().ingameGUI.blit(posX + -110, posY + 64, 0, 0, 256, 256);
+				Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("soulinmod:textures/nectaroverlay.png"));
+				Minecraft.getInstance().ingameGUI.blit(0, 0, 0, 0, 256, 256, event.getWindow().getScaledWidth(), event.getWindow().getScaledHeight());
 				GlStateManager.depthMask(true);
 				GlStateManager.enableDepthTest();
 				GlStateManager.enableAlphaTest();
 				GlStateManager.color4f(1.0F, 1.0F, 1.0F, 1.0F);
+				GlStateManager.disableDepthTest();
+				GlStateManager.depthMask(false);
+				GlStateManager.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA,
+						GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
+				GlStateManager.color4f(1.0F, 1.0F, 1.0F, 1.0F);
+				GlStateManager.disableAlphaTest();
+				Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("soulinmod:textures/nectaroverlay.png"));
+				Minecraft.getInstance().ingameGUI.blit(posX + -214, posY + 48, 0, 0, 256, 256);
+				GlStateManager.depthMask(true);
+				GlStateManager.enableDepthTest();
+				GlStateManager.enableAlphaTest();
+				GlStateManager.color4f(1.0F, 1.0F, 1.0F, 1.0F);
+				GlStateManager.disableDepthTest();
+				GlStateManager.depthMask(false);
+				GlStateManager.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA,
+						GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
+				GlStateManager.color4f(1.0F, 1.0F, 1.0F, 1.0F);
+				GlStateManager.disableAlphaTest();
+				Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("soulinmod:textures/nectaroverlay.png"));
+				Minecraft.getInstance().ingameGUI.blit(posX + 34, posY + 48, 0, 0, 256, 256);
+				GlStateManager.depthMask(true);
+				GlStateManager.enableDepthTest();
+				GlStateManager.enableAlphaTest();
+				GlStateManager.color4f(1.0F, 1.0F, 1.0F, 1.0F);
+				Minecraft.getInstance().fontRenderer.drawString("Graphic design is my passion", posX + -78, posY + -77, -1);
 			}
 		}
 	}

@@ -1,0 +1,19 @@
+{
+  "_fv": 8,
+  "_type": "potion",
+  "definition": {
+    "name": "Nectard",
+    "effectName": "Nectar'd",
+    "icon": "tempicon.png",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true
+  }
+}
