@@ -703,6 +703,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "void_chunk_recipe"
+    },
+    {
+      "name": "VoidChunkTendril",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_chunk_tendril"
+    },
+    {
+      "name": "VoidTendrilEssence",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_tendril_essence"
     }
   ],
   "variable_elements": [
@@ -733,8 +751,8 @@
   "language_map": {
     "en_us": {
       "item.soulinmod.glowing_nectar_bucket": "GlowingNectar Bucket",
-      "block.soulinmod.spookyblock": "Spookyblock",
       "effect.nectard": "Nectar\u0027d",
+      "block.soulinmod.spookyblock": "Spookyblock",
       "item.minecraft.potion.effect.nectard": "Nectard",
       "block.soulinmod.plant_core_c": "Plant Core C",
       "itemGroup.tabsoulintary_music": "Soulintary Music",

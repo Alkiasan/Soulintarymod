@@ -1,0 +1,16 @@
+{
+  "group": "soulinmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "soulinmod:mortar_and_pestle"
+    },
+    {
+      "item": "soulinmod:void_chunk"
+    }
+  ],
+  "result": {
+    "item": "soulinmod:void_tendril",
+    "count": 1
+  }
+}
