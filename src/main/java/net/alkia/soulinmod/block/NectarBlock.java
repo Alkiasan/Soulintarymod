@@ -49,8 +49,9 @@ public class NectarBlock extends SoulinmodModElements.ModElement {
 	@Override
 	public void initElements() {
 		fluidproperties = new ForgeFlowingFluid.Properties(() -> still, () -> flowing,
-				FluidAttributes.builder(new ResourceLocation("soulinmod:blocks/nectar_final"), new ResourceLocation("soulinmod:blocks/nectar_flow_2"))
-						.luminosity(10).density(20).viscosity(10)).bucket(() -> bucket).block(() -> block);
+				FluidAttributes
+						.builder(new ResourceLocation("soulinmod:blocks/nectar_final"), new ResourceLocation("soulinmod:blocks/nectar_green_flowv2"))
+						.luminosity(10).density(40).viscosity(2)).bucket(() -> bucket).block(() -> block);
 		still = (FlowingFluid) new ForgeFlowingFluid.Source(fluidproperties).setRegistryName("nectar");
 		flowing = (FlowingFluid) new ForgeFlowingFluid.Flowing(fluidproperties).setRegistryName("nectar_flowing");
 		elements.blocks.add(() -> new FlowingFluidBlock(still, Block.Properties.create(Material.WATER)) {

@@ -4,10 +4,10 @@
   "definition": {
     "name": "Nectar",
     "textureStill": "nectar_final",
-    "textureFlowing": "nectar_flow_2",
+    "textureFlowing": "nectar_green_flowv2",
     "luminosity": 10,
-    "density": 20,
-    "viscosity": 10,
+    "density": 40,
+    "viscosity": 2,
     "isGas": false,
     "type": "WATER",
     "generateBucket": true,
