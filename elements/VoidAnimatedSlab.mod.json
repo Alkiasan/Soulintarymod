@@ -33,7 +33,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:VoidEssense"
+      "value": "CUSTOM:VoidChunk"
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -44,7 +44,7 @@
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 10,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "colorOnMap": "BLACK",
@@ -60,7 +60,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "WET_GRASS"
     },
     "luminance": 0.0,
     "unbreakable": false,

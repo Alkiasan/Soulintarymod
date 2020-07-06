@@ -694,6 +694,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "void_tendril"
+    },
+    {
+      "name": "VoidChunkRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_chunk_recipe"
     }
   ],
   "variable_elements": [

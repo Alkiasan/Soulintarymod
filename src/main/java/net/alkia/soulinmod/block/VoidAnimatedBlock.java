@@ -42,7 +42,7 @@ public class VoidAnimatedBlock extends SoulinmodModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.8f, 10f).lightValue(0));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.WET_GRASS).hardnessAndResistance(1.8f, 10f).lightValue(0));
 			setRegistryName("void_animated");
 		}
 

@@ -1,0 +1,22 @@
+{
+  "group": "soulinmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "soulinmod:void_chunk"
+    },
+    {
+      "item": "soulinmod:void_chunk"
+    },
+    {
+      "item": "soulinmod:void_chunk"
+    },
+    {
+      "item": "soulinmod:void_chunk"
+    }
+  ],
+  "result": {
+    "item": "soulinmod:void_block",
+    "count": 1
+  }
+}
