@@ -26,7 +26,10 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onItemInInventoryTick": {
+    "onRightClickedInAir": {
+      "name": "BemboFeatherRightClicked"
+    },
+    "onRightClickedOnBlock": {
       "name": "BemboFeatherRightClicked"
     }
   }
