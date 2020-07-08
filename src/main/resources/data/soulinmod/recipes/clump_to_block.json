@@ -1,0 +1,31 @@
+{
+  "group": "soulinmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "soulinmod:anti_void_clump"
+    },
+    {
+      "item": "soulinmod:anti_void_clump"
+    },
+    {
+      "item": "soulinmod:anti_void_clump"
+    },
+    {
+      "item": "soulinmod:anti_void_clump"
+    },
+    {
+      "item": "soulinmod:anti_void_clump"
+    },
+    {
+      "item": "soulinmod:anti_void_clump"
+    },
+    {
+      "item": "soulinmod:anti_void_clump"
+    }
+  ],
+  "result": {
+    "item": "soulinmod:anti_void",
+    "count": 1
+  }
+}

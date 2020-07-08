@@ -11,7 +11,6 @@ import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.BlockRenderLayer;
-import net.minecraft.state.properties.SlabType;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -23,6 +22,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.alkia.soulinmod.itemgroup.SoulItemsItemGroup;
+import net.alkia.soulinmod.item.AntiVoidClumpItem;
 import net.alkia.soulinmod.SoulinmodModElements;
 
 import java.util.List;
@@ -33,7 +33,7 @@ public class AntiVoidSlabBlock extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:anti_void_slab")
 	public static final Block block = null;
 	public AntiVoidSlabBlock(SoulinmodModElements instance) {
-		super(instance, 76);
+		super(instance, 13);
 	}
 
 	@Override
@@ -70,7 +70,7 @@ public class AntiVoidSlabBlock extends SoulinmodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, state.get(TYPE) == SlabType.DOUBLE ? 2 : 1));
+			return Collections.singletonList(new ItemStack(AntiVoidClumpItem.block, (int) (1)));
 		}
 	}
 }

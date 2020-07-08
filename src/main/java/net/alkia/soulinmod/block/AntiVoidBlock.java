@@ -21,6 +21,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.alkia.soulinmod.itemgroup.SoulItemsItemGroup;
+import net.alkia.soulinmod.item.AntiVoidClumpItem;
 import net.alkia.soulinmod.SoulinmodModElements;
 
 import java.util.List;
@@ -31,7 +32,7 @@ public class AntiVoidBlock extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:anti_void")
 	public static final Block block = null;
 	public AntiVoidBlock(SoulinmodModElements instance) {
-		super(instance, 74);
+		super(instance, 11);
 	}
 
 	@Override
@@ -68,7 +69,7 @@ public class AntiVoidBlock extends SoulinmodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(AntiVoidClumpItem.block, (int) (3)));
 		}
 	}
 }
