@@ -22,7 +22,7 @@ public class GrayDyeEdibleItem extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:gray_dye_edible")
 	public static final Item block = null;
 	public GrayDyeEdibleItem(SoulinmodModElements instance) {
-		super(instance, 15);
+		super(instance, 20);
 	}
 
 	@Override

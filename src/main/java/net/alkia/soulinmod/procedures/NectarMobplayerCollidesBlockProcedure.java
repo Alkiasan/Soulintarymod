@@ -10,7 +10,7 @@ import net.alkia.soulinmod.SoulinmodModElements;
 @SoulinmodModElements.ModElement.Tag
 public class NectarMobplayerCollidesBlockProcedure extends SoulinmodModElements.ModElement {
 	public NectarMobplayerCollidesBlockProcedure(SoulinmodModElements instance) {
-		super(instance, 59);
+		super(instance, 69);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

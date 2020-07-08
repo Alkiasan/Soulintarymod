@@ -35,7 +35,7 @@ public class PlantCoreCBlock extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:plant_core_c")
 	public static final Block block = null;
 	public PlantCoreCBlock(SoulinmodModElements instance) {
-		super(instance, 27);
+		super(instance, 32);
 	}
 
 	@Override

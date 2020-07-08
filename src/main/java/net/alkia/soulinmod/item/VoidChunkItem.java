@@ -21,7 +21,7 @@ public class VoidChunkItem extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:void_chunk")
 	public static final Item block = null;
 	public VoidChunkItem(SoulinmodModElements instance) {
-		super(instance, 7);
+		super(instance, 8);
 	}
 
 	@Override

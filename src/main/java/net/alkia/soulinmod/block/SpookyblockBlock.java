@@ -42,7 +42,7 @@ public class SpookyblockBlock extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:spookyblock")
 	public static final Block block = null;
 	public SpookyblockBlock(SoulinmodModElements instance) {
-		super(instance, 32);
+		super(instance, 42);
 	}
 
 	@Override

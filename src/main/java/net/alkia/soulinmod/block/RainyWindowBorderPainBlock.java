@@ -30,7 +30,7 @@ public class RainyWindowBorderPainBlock extends SoulinmodModElements.ModElement 
 	@ObjectHolder("soulinmod:rainy_window_border_pain")
 	public static final Block block = null;
 	public RainyWindowBorderPainBlock(SoulinmodModElements instance) {
-		super(instance, 72);
+		super(instance, 38);
 	}
 
 	@Override

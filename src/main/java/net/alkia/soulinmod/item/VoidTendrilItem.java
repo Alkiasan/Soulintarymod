@@ -21,7 +21,7 @@ public class VoidTendrilItem extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:void_tendril")
 	public static final Item block = null;
 	public VoidTendrilItem(SoulinmodModElements instance) {
-		super(instance, 8);
+		super(instance, 9);
 	}
 
 	@Override

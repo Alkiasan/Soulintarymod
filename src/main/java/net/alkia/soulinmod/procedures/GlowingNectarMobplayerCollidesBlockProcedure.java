@@ -10,7 +10,7 @@ import net.alkia.soulinmod.SoulinmodModElements;
 @SoulinmodModElements.ModElement.Tag
 public class GlowingNectarMobplayerCollidesBlockProcedure extends SoulinmodModElements.ModElement {
 	public GlowingNectarMobplayerCollidesBlockProcedure(SoulinmodModElements instance) {
-		super(instance, 61);
+		super(instance, 71);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

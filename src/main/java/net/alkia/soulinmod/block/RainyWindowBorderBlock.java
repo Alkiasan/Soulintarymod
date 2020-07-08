@@ -29,7 +29,7 @@ public class RainyWindowBorderBlock extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:rainy_window_border")
 	public static final Block block = null;
 	public RainyWindowBorderBlock(SoulinmodModElements instance) {
-		super(instance, 70);
+		super(instance, 36);
 	}
 
 	@Override

@@ -23,7 +23,7 @@ public class MemoryOfTheLostItem extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:memory_of_the_lost")
 	public static final Item block = null;
 	public MemoryOfTheLostItem(SoulinmodModElements instance) {
-		super(instance, 35);
+		super(instance, 45);
 	}
 
 	@Override

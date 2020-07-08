@@ -25,7 +25,7 @@ public class BemboFeatherItem extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:bembo_feather")
 	public static final Item block = null;
 	public BemboFeatherItem(SoulinmodModElements instance) {
-		super(instance, 30);
+		super(instance, 35);
 	}
 
 	@Override

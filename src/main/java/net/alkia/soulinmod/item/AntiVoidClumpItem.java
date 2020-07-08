@@ -21,7 +21,7 @@ public class AntiVoidClumpItem extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:anti_void_clump")
 	public static final Item block = null;
 	public AntiVoidClumpItem(SoulinmodModElements instance) {
-		super(instance, 79);
+		super(instance, 14);
 	}
 
 	@Override

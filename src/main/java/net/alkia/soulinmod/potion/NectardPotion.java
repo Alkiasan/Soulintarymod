@@ -18,7 +18,7 @@ public class NectardPotion extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:nectard")
 	public static final Effect potion = null;
 	public NectardPotion(SoulinmodModElements instance) {
-		super(instance, 66);
+		super(instance, 76);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

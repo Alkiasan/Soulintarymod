@@ -25,7 +25,7 @@ public class ProtectedBiomeBiome extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:protected_biome")
 	public static final CustomBiome biome = null;
 	public ProtectedBiomeBiome(SoulinmodModElements instance) {
-		super(instance, 40);
+		super(instance, 50);
 	}
 
 	@Override

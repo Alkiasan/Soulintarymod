@@ -25,7 +25,7 @@ public class GlitterAndGoldItem extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:glitter_and_gold")
 	public static final Item block = null;
 	public GlitterAndGoldItem(SoulinmodModElements instance) {
-		super(instance, 34);
+		super(instance, 44);
 	}
 
 	@Override

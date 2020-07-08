@@ -36,7 +36,7 @@ public class NectarBlock extends SoulinmodModElements.ModElement {
 	private FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public NectarBlock(SoulinmodModElements instance) {
-		super(instance, 28);
+		super(instance, 33);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

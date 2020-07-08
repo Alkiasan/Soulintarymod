@@ -42,7 +42,7 @@ public class MailSachelItem extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:mail_sachel")
 	public static final Item block = null;
 	public MailSachelItem(SoulinmodModElements instance) {
-		super(instance, 31);
+		super(instance, 41);
 	}
 
 	@Override

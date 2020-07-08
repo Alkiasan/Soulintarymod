@@ -32,7 +32,7 @@ public class CrystalizedVoidBlock extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:crystalized_void")
 	public static final Block block = null;
 	public CrystalizedVoidBlock(SoulinmodModElements instance) {
-		super(instance, 68);
+		super(instance, 6);
 	}
 
 	@Override

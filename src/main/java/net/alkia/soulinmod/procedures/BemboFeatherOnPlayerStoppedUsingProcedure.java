@@ -10,7 +10,7 @@ import net.alkia.soulinmod.SoulinmodModElements;
 @SoulinmodModElements.ModElement.Tag
 public class BemboFeatherOnPlayerStoppedUsingProcedure extends SoulinmodModElements.ModElement {
 	public BemboFeatherOnPlayerStoppedUsingProcedure(SoulinmodModElements instance) {
-		super(instance, 37);
+		super(instance, 47);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

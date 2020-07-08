@@ -13,7 +13,7 @@ import net.alkia.soulinmod.SoulinmodModElements;
 @SoulinmodModElements.ModElement.Tag
 public class BemboFeatherRightClickedProcedure extends SoulinmodModElements.ModElement {
 	public BemboFeatherRightClickedProcedure(SoulinmodModElements instance) {
-		super(instance, 36);
+		super(instance, 46);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

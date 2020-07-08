@@ -30,7 +30,7 @@ public class SpecimenBiome extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:specimen")
 	public static final CustomBiome biome = null;
 	public SpecimenBiome(SoulinmodModElements instance) {
-		super(instance, 41);
+		super(instance, 51);
 	}
 
 	@Override

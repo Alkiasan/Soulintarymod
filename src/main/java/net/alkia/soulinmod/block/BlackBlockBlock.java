@@ -29,7 +29,7 @@ public class BlackBlockBlock extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:black_block")
 	public static final Block block = null;
 	public BlackBlockBlock(SoulinmodModElements instance) {
-		super(instance, 69);
+		super(instance, 40);
 	}
 
 	@Override

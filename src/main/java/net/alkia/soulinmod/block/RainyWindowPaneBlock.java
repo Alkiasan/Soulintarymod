@@ -30,7 +30,7 @@ public class RainyWindowPaneBlock extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:rainy_window_pane")
 	public static final Block block = null;
 	public RainyWindowPaneBlock(SoulinmodModElements instance) {
-		super(instance, 73);
+		super(instance, 39);
 	}
 
 	@Override
