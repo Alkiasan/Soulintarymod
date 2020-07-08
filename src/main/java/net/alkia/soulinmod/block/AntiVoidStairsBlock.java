@@ -9,8 +9,6 @@ import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -53,17 +51,6 @@ public class AntiVoidStairsBlock extends SoulinmodModElements.ModElement {
 		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
 			list.add(new StringTextComponent("template"));
-		}
-
-		@OnlyIn(Dist.CLIENT)
-		@Override
-		public BlockRenderLayer getRenderLayer() {
-			return BlockRenderLayer.TRANSLUCENT;
-		}
-
-		@Override
-		public boolean isNormalCube(BlockState state, IBlockReader worldIn, BlockPos pos) {
-			return false;
 		}
 
 		@Override
