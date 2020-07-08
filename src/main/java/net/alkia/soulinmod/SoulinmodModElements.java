@@ -54,6 +54,17 @@ public class SoulinmodModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("soulinmod", "glitterandgold")));
 		sounds.put(new ResourceLocation("soulinmod", "memoryofthelost"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("soulinmod", "memoryofthelost")));
+		sounds.put(new ResourceLocation("soulinmod", "sinners"), new net.minecraft.util.SoundEvent(new ResourceLocation("soulinmod", "sinners")));
+		sounds.put(new ResourceLocation("soulinmod", "legendofthekeeper"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("soulinmod", "legendofthekeeper")));
+		sounds.put(new ResourceLocation("soulinmod", "whoseesyou"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("soulinmod", "whoseesyou")));
+		sounds.put(new ResourceLocation("soulinmod", "run"), new net.minecraft.util.SoundEvent(new ResourceLocation("soulinmod", "run")));
+		sounds.put(new ResourceLocation("soulinmod", "calmdown"), new net.minecraft.util.SoundEvent(new ResourceLocation("soulinmod", "calmdown")));
+		sounds.put(new ResourceLocation("soulinmod", "bravenewworld"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("soulinmod", "bravenewworld")));
+		sounds.put(new ResourceLocation("soulinmod", "lostwoods"), new net.minecraft.util.SoundEvent(new ResourceLocation("soulinmod", "lostwoods")));
+		sounds.put(new ResourceLocation("soulinmod", "badapple"), new net.minecraft.util.SoundEvent(new ResourceLocation("soulinmod", "badapple")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("soulinmod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

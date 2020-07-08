@@ -25,5 +25,77 @@
         "stream": true
       }
     ]
+  },
+  "sinners": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soulinmod:barns_courtney_-_sinners_audio_1",
+        "stream": true
+      }
+    ]
+  },
+  "legendofthekeeper": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soulinmod:magic_sword_-_legend_of_the_keeper",
+        "stream": true
+      }
+    ]
+  },
+  "whoseesyou": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soulinmod:who_sees_you",
+        "stream": true
+      }
+    ]
+  },
+  "run": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soulinmod:run",
+        "stream": true
+      }
+    ]
+  },
+  "calmdown": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soulinmod:corbin_-_calmdown_prod._bobbyraps",
+        "stream": true
+      }
+    ]
+  },
+  "bravenewworld": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soulinmod:kalandra_-_brave_new_world_lyric_video",
+        "stream": true
+      }
+    ]
+  },
+  "lostwoods": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soulinmod:lost_woods",
+        "stream": true
+      }
+    ]
+  },
+  "badapple": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soulinmod:bad_apple",
+        "stream": true
+      }
+    ]
   }
 }

@@ -980,6 +980,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "glowing_nectar_placable"
+    },
+    {
+      "name": "Badapple",
+      "type": "musicdisc",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "badapple"
     }
   ],
   "variable_elements": [
@@ -1005,6 +1014,46 @@
       "name": "memoryofthelost",
       "file": "code_vein_ost__memory_of_the_lost",
       "category": "record"
+    },
+    {
+      "name": "sinners",
+      "file": "barns_courtney_-_sinners_audio_1",
+      "category": "record"
+    },
+    {
+      "name": "legendofthekeeper",
+      "file": "magic_sword_-_legend_of_the_keeper",
+      "category": "record"
+    },
+    {
+      "name": "whoseesyou",
+      "file": "who_sees_you",
+      "category": "record"
+    },
+    {
+      "name": "run",
+      "file": "run",
+      "category": "record"
+    },
+    {
+      "name": "calmdown",
+      "file": "corbin_-_calmdown_prod._bobbyraps",
+      "category": "record"
+    },
+    {
+      "name": "bravenewworld",
+      "file": "kalandra_-_brave_new_world_lyric_video",
+      "category": "record"
+    },
+    {
+      "name": "lostwoods",
+      "file": "lost_woods",
+      "category": "record"
+    },
+    {
+      "name": "badapple",
+      "file": "bad_apple",
+      "category": "record"
     }
   ],
   "language_map": {
@@ -1015,17 +1064,18 @@
       "block.soulinmod.spookyblock": "Spookyblock",
       "block.soulinmod.plant_core_c": "Plant Core C",
       "item.soulinmod.nectar_bottle": "Nectar Bottle",
-      "itemGroup.tabsoulintary_music": "Soulintary Music",
       "item.soulinmod.white_dye_edible": "White Dye (edible)",
+      "itemGroup.tabsoulintary_music": "Soulintary Music",
       "item.soulinmod.memory_of_the_lost.desc": "Code Vein - Memory Of The Lost",
       "fluid.nectar": "Nectar",
-      "block.soulinmod.anti_void_slab": "Anti Void Slab",
-      "block.soulinmod.anti_void_stairs": "Anti Void Stairs",
-      "item.soulinmod.dark_matter.desc": "Les Friction - Dark Matter",
       "item.soulinmod.red_dye_edible": "Red Dye (edible)",
+      "item.soulinmod.dark_matter.desc": "Les Friction - Dark Matter",
+      "block.soulinmod.anti_void_stairs": "Anti Void Stairs",
+      "block.soulinmod.anti_void_slab": "Anti Void Slab",
+      "item.soulinmod.badapple": "Bioweapon (Lily Track 2)",
       "item.soulinmod.gray_dye_edible": "Gray Dye (edible)",
-      "item.soulinmod.void_chunk": "Void Chunk",
       "item.soulinmod.dark_matter": "Dark Matter",
+      "item.soulinmod.void_chunk": "Void Chunk",
       "item.soulinmod.memory_of_the_lost": "Memory Of The Lost",
       "itemGroup.tabsoul_items": "Soulintary",
       "item.soulinmod.void_tendril": "Void Tendril",
@@ -1034,6 +1084,7 @@
       "item.soulinmod.blue_dye_edible": "Blue Dye (edible)",
       "block.soulinmod.nectar_block_placeholder": "Nectar Block Placeholder",
       "block.soulinmod.glowing_nectar_placable": "Nectar Block Placeholder",
+      "item.soulinmod.badapple.desc": "Bioweapon - Lily Track 2",
       "block.soulinmod.anti_void": "Anti Void",
       "block.soulinmod.rainy_window_border_pain": "Rainy Window Border Pane",
       "block.soulinmod.void_animated": "Void",
