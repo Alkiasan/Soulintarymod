@@ -2,7 +2,6 @@
 package net.alkia.soulinmod.block;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.common.ToolType;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -10,14 +9,13 @@ import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Direction;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.PaneBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -28,11 +26,11 @@ import java.util.List;
 import java.util.Collections;
 
 @SoulinmodModElements.ModElement.Tag
-public class CrystalizedVoidBlock extends SoulinmodModElements.ModElement {
-	@ObjectHolder("soulinmod:crystalized_void")
+public class RainyWindowPaneBlock extends SoulinmodModElements.ModElement {
+	@ObjectHolder("soulinmod:rainy_window_pane")
 	public static final Block block = null;
-	public CrystalizedVoidBlock(SoulinmodModElements instance) {
-		super(instance, 68);
+	public RainyWindowPaneBlock(SoulinmodModElements instance) {
+		super(instance, 73);
 	}
 
 	@Override
@@ -40,28 +38,17 @@ public class CrystalizedVoidBlock extends SoulinmodModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(SoulItemsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
-	public static class CustomBlock extends Block {
+	public static class CustomBlock extends PaneBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GLASS).hardnessAndResistance(1.6f, 6f).lightValue(11).harvestLevel(1)
-					.harvestTool(ToolType.PICKAXE));
-			setRegistryName("crystalized_void");
+			super(Block.Properties.create(Material.GLASS).sound(SoundType.GLASS).hardnessAndResistance(0.3f, 0.3f).lightValue(7).slipperiness(1.5f));
+			setRegistryName("rainy_window_pane");
 		}
 
 		@Override
 		@OnlyIn(Dist.CLIENT)
 		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Crystalized void template"));
-		}
-
-		@Override
-		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
-			return 5;
-		}
-
-		@Override
-		public int getFireSpreadSpeed(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
-			return 35;
+			list.add(new StringTextComponent("template"));
 		}
 
 		@Override

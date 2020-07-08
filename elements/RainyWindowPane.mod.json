@@ -2,15 +2,16 @@
   "_fv": 8,
   "_type": "block",
   "definition": {
-    "texture": "crystalized_void",
-    "textureTop": "crystalized_void",
-    "textureLeft": "crystalized_void",
-    "textureFront": "crystalized_void",
-    "textureRight": "crystalized_void",
-    "textureBack": "crystalized_void",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "rainywindowclear",
+    "textureTop": "rainywindowclear",
+    "textureLeft": "rainywindowclear",
+    "textureFront": "rainywindowclear",
+    "textureRight": "rainywindowclear",
+    "textureBack": "rainywindowclear",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
+    "blockBase": "Pane",
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -20,17 +21,17 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Crystalized Void",
+    "name": "Rainy Window Pane",
     "specialInfo": [
-      "Crystalized void template"
+      "template"
     ],
-    "hardness": 1.6,
-    "resistance": 6.0,
+    "hardness": 0.3,
+    "resistance": 0.3,
     "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:SoulItems"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -41,7 +42,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "GLASS"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -52,16 +53,16 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 5,
-    "fireSpreadSpeed": 35,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 0.6,
+    "slipperiness": 1.5,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
       "value": "GLASS"
     },
-    "luminance": 0.7,
+    "luminance": 0.45,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
@@ -84,9 +85,9 @@
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],
-    "frequencyPerChunks": 1,
-    "frequencyOnChunk": 1,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 0
+    "maxGenerateHeight": 64
   }
 }

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "soulinmod:block/anti_void_slab"
+    },
+    "type=top": {
+      "model": "soulinmod:block/anti_void_slab_top"
+    },
+    "type=double": {
+      "model": "soulinmod:block/anti_void_slab_full"
+    }
+  }
+}

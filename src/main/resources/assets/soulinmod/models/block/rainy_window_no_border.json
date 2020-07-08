@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soulinmod:blocks/rainywindowclear",
+    "up": "soulinmod:blocks/rainywindowclear",
+    "north": "soulinmod:blocks/rainywindowclear",
+    "east": "soulinmod:blocks/rainywindowclear",
+    "south": "soulinmod:blocks/rainywindowclear",
+    "west": "soulinmod:blocks/rainywindowclear",
+    "particle": "soulinmod:blocks/rainywindowclear"
+  }
+}
