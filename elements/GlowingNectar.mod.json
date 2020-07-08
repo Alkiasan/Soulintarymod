@@ -10,7 +10,7 @@
     "viscosity": 2,
     "isGas": false,
     "type": "WATER",
-    "generateBucket": true,
+    "generateBucket": false,
     "creativeTab": {
       "value": "CUSTOM:SoulItems"
     },

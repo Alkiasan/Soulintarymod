@@ -11,9 +11,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.item.Items;
 import net.minecraft.item.Item;
-import net.minecraft.item.BucketItem;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.FlowingFluid;
 import net.minecraft.entity.Entity;
@@ -23,7 +21,6 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.alkia.soulinmod.procedures.GlowingNectarMobplayerCollidesBlockProcedure;
-import net.alkia.soulinmod.itemgroup.SoulItemsItemGroup;
 import net.alkia.soulinmod.SoulinmodModElements;
 
 @SoulinmodModElements.ModElement.Tag
@@ -50,7 +47,7 @@ public class GlowingNectarBlock extends SoulinmodModElements.ModElement {
 	public void initElements() {
 		fluidproperties = new ForgeFlowingFluid.Properties(() -> still, () -> flowing, FluidAttributes
 				.builder(new ResourceLocation("soulinmod:blocks/nectarglowingblue"), new ResourceLocation("soulinmod:blocks/nectar_glow_flowv2"))
-				.luminosity(15).density(30).viscosity(2)).bucket(() -> bucket).block(() -> block);
+				.luminosity(15).density(30).viscosity(2)).block(() -> block);
 		still = (FlowingFluid) new ForgeFlowingFluid.Source(fluidproperties).setRegistryName("glowing_nectar");
 		flowing = (FlowingFluid) new ForgeFlowingFluid.Flowing(fluidproperties).setRegistryName("glowing_nectar_flowing");
 		elements.blocks.add(() -> new FlowingFluidBlock(still, Block.Properties.create(Material.WATER)) {
@@ -67,8 +64,5 @@ public class GlowingNectarBlock extends SoulinmodModElements.ModElement {
 				}
 			}
 		}.setRegistryName("glowing_nectar"));
-		elements.items
-				.add(() -> new BucketItem(still, new Item.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(SoulItemsItemGroup.tab))
-						.setRegistryName("glowing_nectar_bucket"));
 	}
 }

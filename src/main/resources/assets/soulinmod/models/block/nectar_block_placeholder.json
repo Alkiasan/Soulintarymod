@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soulinmod:blocks/nectar_final",
+    "up": "soulinmod:blocks/nectar_final",
+    "north": "soulinmod:blocks/nectar_final",
+    "east": "soulinmod:blocks/nectar_final",
+    "south": "soulinmod:blocks/nectar_final",
+    "west": "soulinmod:blocks/nectar_final",
+    "particle": "soulinmod:blocks/nectar_final"
+  }
+}

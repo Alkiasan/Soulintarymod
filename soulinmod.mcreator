@@ -522,7 +522,7 @@
       "type": "fluid",
       "sortid": 33,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "nectar"
     },
@@ -827,6 +827,150 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mortar_pestle_recipe"
+    },
+    {
+      "name": "NectarBucket",
+      "type": "item",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nectar_bucket_full"
+    },
+    {
+      "name": "NectarBucketPlace",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nectar_bucket_place",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NectarBucketFill",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nectar_bucket_fill",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NectarBlockPlaceholder",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nectar_block_placeholder"
+    },
+    {
+      "name": "Bucketemptynectar",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bucketemptynectar"
+    },
+    {
+      "name": "NectarBottle",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nectar_bottle"
+    },
+    {
+      "name": "NectarBottleEmpty",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nectar_bottle_empty"
+    },
+    {
+      "name": "NectarBottlefill",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nectar_bottlefill",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -861,6 +1005,7 @@
       "block.soulinmod.rainy_window_no_border": "Rainy Window Border",
       "block.soulinmod.spookyblock": "Spookyblock",
       "block.soulinmod.plant_core_c": "Plant Core C",
+      "item.soulinmod.nectar_bottle": "Nectar Bottle",
       "itemGroup.tabsoulintary_music": "Soulintary Music",
       "item.soulinmod.white_dye_edible": "White Dye (edible)",
       "item.soulinmod.memory_of_the_lost.desc": "Code Vein - Memory Of The Lost",
@@ -878,14 +1023,18 @@
       "item.soulinmod.lime_dye_edible": "Lime Dye (edible)",
       "item.soulinmod.black_dye_edible": "Black Dye (edible)",
       "item.soulinmod.blue_dye_edible": "Blue Dye (edible)",
+      "block.soulinmod.nectar_block_placeholder": "Nectar Block Placeholder",
       "block.soulinmod.anti_void": "Anti Void",
       "block.soulinmod.rainy_window_border_pain": "Rainy Window Border Pane",
       "block.soulinmod.void_animated": "Void",
+      "item.soulinmod.bucketemptynectar": "Bucketemptynectar",
       "block.soulinmod.black_block": "Black Block",
       "block.soulinmod.rainy_window_border": "Rainy Window Border",
       "item.soulinmod.glitter_and_gold.desc": "Barns Courtney - Glitter And Gold",
       "item.soulinmod.brown_dye_edible": "Brown Dye (edible)",
       "item.soulinmod.anti_void_clump": "Anti Void Clump",
+      "item.soulinmod.nectar_bottle_empty": "Nectar Bottle Empty",
+      "item.soulinmod.nectar_bucket_full": "Nectar Bucket",
       "block.soulinmod.void_animated_stairs": "Void Stairs",
       "item.soulinmod.pink_dye_edible": "Pink Dye (edible)",
       "block.soulinmod.rainy_window_pane": "Rainy Window Pane",
@@ -922,6 +1071,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.14.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.alkia.soulinmod",
     "lockBaseModFiles": false
   },
