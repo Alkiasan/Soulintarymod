@@ -2,12 +2,12 @@
   "_fv": 8,
   "_type": "block",
   "definition": {
-    "texture": "nectar_final",
-    "textureTop": "nectar_final",
-    "textureLeft": "nectar_final",
-    "textureFront": "nectar_final",
-    "textureRight": "nectar_final",
-    "textureBack": "nectar_final",
+    "texture": "nectarglowingblue",
+    "textureTop": "nectarglowingblue",
+    "textureLeft": "nectarglowingblue",
+    "textureFront": "nectarglowingblue",
+    "textureRight": "nectarglowingblue",
+    "textureBack": "nectarglowingblue",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -80,10 +80,10 @@
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
     "onEntityCollides": {
-      "name": "NectarMobplayerCollidesBlock"
+      "name": "GlowingNectarMobplayerCollidesBlock"
     },
     "onEntityWalksOn": {
-      "name": "NectarMobplayerCollidesBlock"
+      "name": "GlowingNectarMobplayerCollidesBlock"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

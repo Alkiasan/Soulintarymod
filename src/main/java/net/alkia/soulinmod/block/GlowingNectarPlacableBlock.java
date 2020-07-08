@@ -16,7 +16,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.alkia.soulinmod.procedures.NectarMobplayerCollidesBlockProcedure;
+import net.alkia.soulinmod.procedures.GlowingNectarMobplayerCollidesBlockProcedure;
 import net.alkia.soulinmod.itemgroup.SoulItemsItemGroup;
 import net.alkia.soulinmod.SoulinmodModElements;
 
@@ -24,11 +24,11 @@ import java.util.List;
 import java.util.Collections;
 
 @SoulinmodModElements.ModElement.Tag
-public class NectarBlockPlaceholderBlock extends SoulinmodModElements.ModElement {
-	@ObjectHolder("soulinmod:nectar_block_placeholder")
+public class GlowingNectarPlacableBlock extends SoulinmodModElements.ModElement {
+	@ObjectHolder("soulinmod:glowing_nectar_placable")
 	public static final Block block = null;
-	public NectarBlockPlaceholderBlock(SoulinmodModElements instance) {
-		super(instance, 86);
+	public GlowingNectarPlacableBlock(SoulinmodModElements instance) {
+		super(instance, 90);
 	}
 
 	@Override
@@ -40,7 +40,7 @@ public class NectarBlockPlaceholderBlock extends SoulinmodModElements.ModElement
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.WET_GRASS).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.SHOVEL));
-			setRegistryName("nectar_block_placeholder");
+			setRegistryName("glowing_nectar_placable");
 		}
 
 		@Override
@@ -60,7 +60,7 @@ public class NectarBlockPlaceholderBlock extends SoulinmodModElements.ModElement
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
-				NectarMobplayerCollidesBlockProcedure.executeProcedure($_dependencies);
+				GlowingNectarMobplayerCollidesBlockProcedure.executeProcedure($_dependencies);
 			}
 		}
 
@@ -73,7 +73,7 @@ public class NectarBlockPlaceholderBlock extends SoulinmodModElements.ModElement
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
-				NectarMobplayerCollidesBlockProcedure.executeProcedure($_dependencies);
+				GlowingNectarMobplayerCollidesBlockProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

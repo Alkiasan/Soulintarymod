@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soulinmod:blocks/nectarglowingblue",
+    "up": "soulinmod:blocks/nectarglowingblue",
+    "north": "soulinmod:blocks/nectarglowingblue",
+    "east": "soulinmod:blocks/nectarglowingblue",
+    "south": "soulinmod:blocks/nectarglowingblue",
+    "west": "soulinmod:blocks/nectarglowingblue",
+    "particle": "soulinmod:blocks/nectarglowingblue"
+  }
+}
