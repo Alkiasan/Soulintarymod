@@ -62,7 +62,8 @@ public class BemboFeatherItem extends SoulinmodModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Feather go weee"));
+			list.add(new StringTextComponent("A gift granted upon those of the Cirx kind."));
+			list.add(new StringTextComponent("No other has been graced with the superiority of the air."));
 		}
 
 		@Override

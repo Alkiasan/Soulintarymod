@@ -150,15 +150,6 @@
       "registry_name": "void_animated_slab"
     },
     {
-      "name": "VoidBlock",
-      "type": "block",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "void_block"
-    },
-    {
       "name": "PlantCoreC",
       "type": "block",
       "sortid": 32,
@@ -827,6 +818,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "MortarPestleRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mortar_pestle_recipe"
     }
   ],
   "variable_elements": [
@@ -861,17 +861,17 @@
       "block.soulinmod.rainy_window_no_border": "Rainy Window Border",
       "block.soulinmod.spookyblock": "Spookyblock",
       "block.soulinmod.plant_core_c": "Plant Core C",
-      "itemGroup.tabsoulintary_music": "Soulintary Music",
       "item.soulinmod.white_dye_edible": "White Dye (edible)",
+      "itemGroup.tabsoulintary_music": "Soulintary Music",
       "item.soulinmod.memory_of_the_lost.desc": "Code Vein - Memory Of The Lost",
       "fluid.nectar": "Nectar",
-      "block.soulinmod.anti_void_slab": "Anti Void Slab",
-      "block.soulinmod.anti_void_stairs": "Anti Void Stairs",
-      "item.soulinmod.dark_matter.desc": "Les Friction - Dark Matter",
       "item.soulinmod.red_dye_edible": "Red Dye (edible)",
+      "item.soulinmod.dark_matter.desc": "Les Friction - Dark Matter",
+      "block.soulinmod.anti_void_stairs": "Anti Void Stairs",
+      "block.soulinmod.anti_void_slab": "Anti Void Slab",
       "item.soulinmod.gray_dye_edible": "Gray Dye (edible)",
-      "item.soulinmod.void_chunk": "Void Chunk",
       "item.soulinmod.dark_matter": "Dark Matter",
+      "item.soulinmod.void_chunk": "Void Chunk",
       "item.soulinmod.memory_of_the_lost": "Memory Of The Lost",
       "itemGroup.tabsoul_items": "Soulintary",
       "item.soulinmod.void_tendril": "Void Tendril",
@@ -879,9 +879,8 @@
       "item.soulinmod.black_dye_edible": "Black Dye (edible)",
       "item.soulinmod.blue_dye_edible": "Blue Dye (edible)",
       "block.soulinmod.anti_void": "Anti Void",
-      "block.soulinmod.void_block": "Void Block",
       "block.soulinmod.rainy_window_border_pain": "Rainy Window Border Pane",
-      "block.soulinmod.void_animated": "Void Animated",
+      "block.soulinmod.void_animated": "Void",
       "block.soulinmod.black_block": "Black Block",
       "block.soulinmod.rainy_window_border": "Rainy Window Border",
       "item.soulinmod.glitter_and_gold.desc": "Barns Courtney - Glitter And Gold",

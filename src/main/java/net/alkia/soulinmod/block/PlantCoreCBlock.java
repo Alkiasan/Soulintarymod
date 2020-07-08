@@ -54,7 +54,11 @@ public class PlantCoreCBlock extends SoulinmodModElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Plant Core Text"));
+			list.add(new StringTextComponent("A large ball of leaves all held together by"));
+			list.add(new StringTextComponent("some strange moving vines. The vines"));
+			list.add(new StringTextComponent("slither down into the center devouring what looks"));
+			list.add(new StringTextComponent("like some kind of meat... it smells of flowers"));
+			list.add(new StringTextComponent("and rotting meat."));
 		}
 
 		@Override

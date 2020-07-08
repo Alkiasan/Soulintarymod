@@ -23,7 +23,9 @@
     "Mz": 1.0,
     "name": "Void Slab",
     "specialInfo": [
-      "Void Block Template"
+      "Pure Darkness, Dark tendrils attempt to grab at you",
+      "as you hold it in your arms. beware not",
+      "to let it pull you in despite its size."
     ],
     "hardness": 1.8,
     "resistance": 10.0,

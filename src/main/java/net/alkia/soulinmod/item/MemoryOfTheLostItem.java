@@ -40,8 +40,9 @@ public class MemoryOfTheLostItem extends SoulinmodModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("??5A music disc that plays a"));
-			list.add(new StringTextComponent("??5sombre melody."));
+			list.add(new StringTextComponent("Arc Completion Reward:"));
+			list.add(new StringTextComponent("A music disc that plays a"));
+			list.add(new StringTextComponent("sombre melody"));
 		}
 	}
 }

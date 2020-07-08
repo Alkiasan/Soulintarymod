@@ -22,7 +22,11 @@
     "Mz": 1.0,
     "name": "Crystalized Void",
     "specialInfo": [
-      "Crystalized void template"
+      "A Large glowing mass of Void. Despite it's reputation,",
+      "This glows white with some kind of strange energy.",
+      "The surface of the energized scarrings is warm",
+      "to the touch unlike the rest of the void it's",
+      "connected to."
     ],
     "hardness": 1.6,
     "resistance": 6.0,

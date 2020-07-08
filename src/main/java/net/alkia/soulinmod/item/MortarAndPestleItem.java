@@ -62,7 +62,9 @@ public class MortarAndPestleItem extends SoulinmodModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("??5Seems useful for grinding up soft items..."));
+			list.add(new StringTextComponent("A Mortar and Pestle, meant to grind objects into"));
+			list.add(new StringTextComponent("dust, and dust to something more refined..."));
+			list.add(new StringTextComponent("If you have the strength for it that is"));
 		}
 	}
 }

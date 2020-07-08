@@ -22,7 +22,11 @@
     "Mz": 1.0,
     "name": "Plant Core C",
     "specialInfo": [
-      "Plant Core Text"
+      "A large ball of leaves all held together by",
+      "some strange moving vines. The vines",
+      "slither down into the center devouring what looks",
+      "like some kind of meat... it smells of flowers",
+      "and rotting meat."
     ],
     "hardness": 1.0,
     "resistance": 10.0,

@@ -47,7 +47,7 @@ public class BlackBlockBlock extends SoulinmodModElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("bye bye sight"));
+			list.add(new StringTextComponent("bye bye sight \\ Scenery go burrrrr"));
 		}
 
 		@Override

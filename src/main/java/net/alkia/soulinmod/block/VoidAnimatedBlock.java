@@ -25,7 +25,7 @@ import net.minecraft.block.Block;
 
 import net.alkia.soulinmod.procedures.VoidAnimatedEntityCollidesInTheBlockProcedure;
 import net.alkia.soulinmod.itemgroup.SoulItemsItemGroup;
-import net.alkia.soulinmod.item.VoidTendrilItem;
+import net.alkia.soulinmod.item.VoidChunkItem;
 import net.alkia.soulinmod.SoulinmodModElements;
 
 import java.util.List;
@@ -55,7 +55,9 @@ public class VoidAnimatedBlock extends SoulinmodModElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Void Block Template"));
+			list.add(new StringTextComponent("Pure Darkness, Dark tendrils attempt to grab at you"));
+			list.add(new StringTextComponent("as you hold it in your arms. beware not"));
+			list.add(new StringTextComponent("to let it pull you in despite its size."));
 		}
 
 		@Override
@@ -68,7 +70,7 @@ public class VoidAnimatedBlock extends SoulinmodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(VoidTendrilItem.block, (int) (3)));
+			return Collections.singletonList(new ItemStack(VoidChunkItem.block, (int) (3)));
 		}
 
 		@Override

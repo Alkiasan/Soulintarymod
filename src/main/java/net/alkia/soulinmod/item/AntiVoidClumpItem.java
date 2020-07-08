@@ -52,7 +52,10 @@ public class AntiVoidClumpItem extends SoulinmodModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("template"));
+			list.add(new StringTextComponent("Holding onto the mass of light... you almost don't"));
+			list.add(new StringTextComponent("feel it at all. You feel the weight on your arms yet"));
+			list.add(new StringTextComponent("feel nothing in your hands. It is extremely warm"));
+			list.add(new StringTextComponent("to the touch."));
 		}
 	}
 }

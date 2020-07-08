@@ -51,7 +51,11 @@ public class CrystalizedVoidBlock extends SoulinmodModElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Crystalized void template"));
+			list.add(new StringTextComponent("A Large glowing mass of Void. Despite it's reputation,"));
+			list.add(new StringTextComponent("This glows white with some kind of strange energy."));
+			list.add(new StringTextComponent("The surface of the energized scarrings is warm"));
+			list.add(new StringTextComponent("to the touch unlike the rest of the void it's"));
+			list.add(new StringTextComponent("connected to."));
 		}
 
 		@Override

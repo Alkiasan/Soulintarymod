@@ -1,0 +1,26 @@
+{
+  "group": "soulinmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cobblestone"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "minecraft:cobblestone"
+    },
+    "4": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "soulinmod:mortar_and_pestle",
+    "count": 1
+  }
+}

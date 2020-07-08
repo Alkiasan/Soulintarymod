@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "placeholdermortar",
+    "texture": "mortalpestal",
     "customModelName": "Normal",
     "name": "Mortar And Pestle",
     "creativeTab": {
@@ -19,7 +19,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "??5Seems useful for grinding up soft items..."
+      "A Mortar and Pestle, meant to grind objects into",
+      "dust, and dust to something more refined...",
+      "If you have the strength for it that is"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

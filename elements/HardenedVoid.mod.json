@@ -21,7 +21,10 @@
     "My": 1.0,
     "Mz": 1.0,
     "name": "Hardened Void",
-    "specialInfo": [],
+    "specialInfo": [
+      "A large chunk of hardened void. Its dense and heavy",
+      "although it is still cold to the touch."
+    ],
     "hardness": 50.0,
     "resistance": 1200.0,
     "hasGravity": false,

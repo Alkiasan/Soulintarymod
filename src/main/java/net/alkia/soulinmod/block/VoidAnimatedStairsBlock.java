@@ -56,7 +56,9 @@ public class VoidAnimatedStairsBlock extends SoulinmodModElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Void Stairs Template"));
+			list.add(new StringTextComponent("Pure Darkness, Dark tendrils attempt to grab at you"));
+			list.add(new StringTextComponent("as you hold it in your arms. beware not"));
+			list.add(new StringTextComponent("to let it pull you in despite its size."));
 		}
 
 		@Override

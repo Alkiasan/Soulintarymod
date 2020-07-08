@@ -48,8 +48,9 @@ public class GlitterAndGoldItem extends SoulinmodModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("??5A music disc that plays a invigorating melody"));
-			list.add(new StringTextComponent("??5that makes you want to work hard!"));
+			list.add(new StringTextComponent("Arc Completion Reward:"));
+			list.add(new StringTextComponent("A music disc that plays a invigorating melody"));
+			list.add(new StringTextComponent("that makes you want to work hard!"));
 		}
 	}
 }

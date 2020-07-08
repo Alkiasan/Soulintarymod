@@ -19,7 +19,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Feather go weee"
+      "A gift granted upon those of the Cirx kind.",
+      "No other has been graced with the superiority of the air."
     ],
     "hasGlow": true,
     "guiBoundTo": "<NONE>",

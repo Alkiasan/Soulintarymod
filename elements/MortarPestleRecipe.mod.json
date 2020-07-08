@@ -7,24 +7,9 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:VoidChunk"
-      },
-      {
-        "value": "CUSTOM:VoidChunk"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:VoidChunk"
-      },
-      {
-        "value": "CUSTOM:VoidChunk"
-      },
-      {
         "value": ""
       },
       {
@@ -32,15 +17,30 @@
       },
       {
         "value": ""
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:VoidAnimated"
+      "value": "CUSTOM:MortarAndPestle"
     },
-    "name": "void_chunk_recipe",
+    "name": "mortar_pestle_recipe",
     "namespace": "mod"
   }
 }
