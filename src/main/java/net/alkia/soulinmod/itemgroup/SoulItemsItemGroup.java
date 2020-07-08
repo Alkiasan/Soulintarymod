@@ -1,9 +1,17 @@
 
 package net.alkia.soulinmod.itemgroup;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+
+import net.alkia.soulinmod.item.VoidEssenseItem;
+import net.alkia.soulinmod.SoulinmodModElements;
+
 @SoulinmodModElements.ModElement.Tag
 public class SoulItemsItemGroup extends SoulinmodModElements.ModElement {
-
 	public SoulItemsItemGroup(SoulinmodModElements instance) {
 		super(instance, 47);
 	}
@@ -23,7 +31,5 @@ public class SoulItemsItemGroup extends SoulinmodModElements.ModElement {
 			}
 		};
 	}
-
 	public static ItemGroup tab;
-
 }

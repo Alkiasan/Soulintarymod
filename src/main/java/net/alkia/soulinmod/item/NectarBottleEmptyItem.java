@@ -1,12 +1,26 @@
 
 package net.alkia.soulinmod.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Direction;
+import net.minecraft.util.ActionResultType;
+import net.minecraft.item.ItemUseContext;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.block.BlockState;
+
+import net.alkia.soulinmod.procedures.NectarBottlefillProcedure;
+import net.alkia.soulinmod.itemgroup.SoulItemsItemGroup;
+import net.alkia.soulinmod.SoulinmodModElements;
+
 @SoulinmodModElements.ModElement.Tag
 public class NectarBottleEmptyItem extends SoulinmodModElements.ModElement {
-
 	@ObjectHolder("soulinmod:nectar_bottle_empty")
 	public static final Item block = null;
-
 	public NectarBottleEmptyItem(SoulinmodModElements instance) {
 		super(instance, 89);
 	}
@@ -15,9 +29,7 @@ public class NectarBottleEmptyItem extends SoulinmodModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(SoulItemsItemGroup.tab).maxStackSize(64));
 			setRegistryName("nectar_bottle_empty");
@@ -56,12 +68,9 @@ public class NectarBottleEmptyItem extends SoulinmodModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-
 				NectarBottlefillProcedure.executeProcedure($_dependencies);
 			}
 			return retval;
 		}
-
 	}
-
 }

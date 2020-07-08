@@ -1,12 +1,25 @@
 
 package net.alkia.soulinmod.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.block.BlockState;
+
+import net.alkia.soulinmod.itemgroup.SoulItemsItemGroup;
+import net.alkia.soulinmod.SoulinmodModElements;
+
+import java.util.List;
+
 @SoulinmodModElements.ModElement.Tag
 public class MortarAndPestleItem extends SoulinmodModElements.ModElement {
-
 	@ObjectHolder("soulinmod:mortar_and_pestle")
 	public static final Item block = null;
-
 	public MortarAndPestleItem(SoulinmodModElements instance) {
 		super(instance, 14);
 	}
@@ -15,9 +28,7 @@ public class MortarAndPestleItem extends SoulinmodModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(SoulItemsItemGroup.tab).maxStackSize(64));
 			setRegistryName("mortar_and_pestle");
@@ -55,7 +66,5 @@ public class MortarAndPestleItem extends SoulinmodModElements.ModElement {
 			list.add(new StringTextComponent("dust, and dust to something more refined..."));
 			list.add(new StringTextComponent("If you have the strength for it that is"));
 		}
-
 	}
-
 }

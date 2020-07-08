@@ -1,11 +1,21 @@
 package net.alkia.soulinmod.procedures;
 
+import net.minecraft.world.World;
+import net.minecraft.world.GameType;
+import net.minecraft.world.Explosion;
+import net.minecraft.util.DamageSource;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.Entity;
+import net.minecraft.client.network.play.NetworkPlayerInfo;
+import net.minecraft.client.entity.player.ClientPlayerEntity;
+import net.minecraft.client.Minecraft;
+
+import net.alkia.soulinmod.SoulinmodModElements;
+
 @SoulinmodModElements.ModElement.Tag
 public class ExplosiveVoidBlockDestroyedByPlayerProcedure extends SoulinmodModElements.ModElement {
-
 	public ExplosiveVoidBlockDestroyedByPlayerProcedure(SoulinmodModElements instance) {
 		super(instance, 71);
-
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -29,13 +39,11 @@ public class ExplosiveVoidBlockDestroyedByPlayerProcedure extends SoulinmodModEl
 			System.err.println("Failed to load dependency world for procedure ExplosiveVoidBlockDestroyedByPlayer!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-
 		if ((new Object() {
 			public boolean checkGamemode(Entity _ent) {
 				if (_ent instanceof ServerPlayerEntity) {
@@ -53,7 +61,5 @@ public class ExplosiveVoidBlockDestroyedByPlayerProcedure extends SoulinmodModEl
 			}
 			entity.attackEntityFrom(DamageSource.ON_FIRE, (float) 12);
 		}
-
 	}
-
 }
