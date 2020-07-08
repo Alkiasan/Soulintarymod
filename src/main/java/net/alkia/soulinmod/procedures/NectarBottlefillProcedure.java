@@ -9,9 +9,11 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
-import net.alkia.soulinmod.item.NectarBottleItem;
+import net.alkia.soulinmod.item.NectarBottleFoodItem;
 import net.alkia.soulinmod.item.NectarBottleEmptyItem;
+import net.alkia.soulinmod.item.GlowingNectarFoodItem;
 import net.alkia.soulinmod.block.NectarBlock;
+import net.alkia.soulinmod.block.GlowingNectarBlock;
 import net.alkia.soulinmod.SoulinmodModElements;
 
 @SoulinmodModElements.ModElement.Tag
@@ -53,7 +55,21 @@ public class NectarBottlefillProcedure extends SoulinmodModElements.ModElement {
 					((PlayerEntity) entity).inventory
 							.clearMatchingItems(p -> new ItemStack(NectarBottleEmptyItem.block, (int) (1)).getItem() == p.getItem(), (int) 1);
 				if (entity instanceof PlayerEntity) {
-					ItemStack _setstack = new ItemStack(NectarBottleItem.block, (int) (1));
+					ItemStack _setstack = new ItemStack(NectarBottleFoodItem.block, (int) (1));
+					_setstack.setCount((int) 1);
+					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+				}
+			}
+		}
+		if (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == GlowingNectarBlock.block.getDefaultState()
+				.getBlock())) {
+			if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
+					.getItem() == new ItemStack(NectarBottleEmptyItem.block, (int) (1)).getItem())) {
+				if (entity instanceof PlayerEntity)
+					((PlayerEntity) entity).inventory
+							.clearMatchingItems(p -> new ItemStack(NectarBottleEmptyItem.block, (int) (1)).getItem() == p.getItem(), (int) 1);
+				if (entity instanceof PlayerEntity) {
+					ItemStack _setstack = new ItemStack(GlowingNectarFoodItem.block, (int) (1));
 					_setstack.setCount((int) 1);
 					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 				}

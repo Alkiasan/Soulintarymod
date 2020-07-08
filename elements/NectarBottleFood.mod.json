@@ -1,0 +1,25 @@
+{
+  "_fv": 8,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "green_nectar_vile",
+    "customModelName": "Normal",
+    "name": "Vial of Nectar",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:SoulItems"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatingSpeed": 70,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "NectarBottleDrank"
+    }
+  }
+}
