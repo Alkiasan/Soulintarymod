@@ -19,7 +19,11 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Void Chunk Template"
+      "The Abyss squirms in your hand, its gooey mass is void",
+      "of heat and chills the palm of your hands. its consistency",
+      "Is thick, but its texture gives off the feeling like you're",
+      "petting a big dry slug. staring into it, you sense that the",
+      "darkness is much deeper than its letting on"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

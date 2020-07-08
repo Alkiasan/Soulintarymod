@@ -1,0 +1,21 @@
+{
+  "_fv": 8,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "bioweapon",
+    "name": "Bioweapon (Lily Track 2)",
+    "description": "Bioweapon - Lily Track 2",
+    "creativeTab": {
+      "value": "CUSTOM:SoulintaryMusic"
+    },
+    "music": {
+      "value": "CUSTOM:badapple"
+    },
+    "specialInfo": [
+      "Arc Completion Reward:",
+      "A music disc that plays a",
+      "self-reflecting melody"
+    ],
+    "hasGlow": false
+  }
+}

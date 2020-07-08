@@ -4,7 +4,7 @@
     {
       "name": "BemboFeatherRightClicked",
       "type": "procedure",
-      "sortid": 46,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -37,7 +37,7 @@
     {
       "name": "BemboFeatherOnPlayerStoppedUsing",
       "type": "procedure",
-      "sortid": 47,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -54,7 +54,7 @@
     {
       "name": "BemboFeather",
       "type": "item",
-      "sortid": 35,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -63,7 +63,7 @@
     {
       "name": "SoulItems",
       "type": "tab",
-      "sortid": 48,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -72,7 +72,7 @@
     {
       "name": "SpookyblockPlayerStartsToDestroy",
       "type": "procedure",
-      "sortid": 49,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -89,7 +89,7 @@
     {
       "name": "Spookyblock",
       "type": "block",
-      "sortid": 42,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -107,7 +107,7 @@
     {
       "name": "ProtectedBiome",
       "type": "biome",
-      "sortid": 50,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -116,7 +116,7 @@
     {
       "name": "Specimen",
       "type": "biome",
-      "sortid": 51,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -150,18 +150,9 @@
       "registry_name": "void_animated_slab"
     },
     {
-      "name": "VoidBlock",
-      "type": "block",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "void_block"
-    },
-    {
       "name": "PlantCoreC",
       "type": "block",
-      "sortid": 32,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -179,7 +170,7 @@
     {
       "name": "SoulintaryMusic",
       "type": "tab",
-      "sortid": 52,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -188,7 +179,7 @@
     {
       "name": "DarkMatter",
       "type": "musicdisc",
-      "sortid": 43,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -197,7 +188,7 @@
     {
       "name": "GlitterAndGold",
       "type": "musicdisc",
-      "sortid": 44,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -206,7 +197,7 @@
     {
       "name": "MemoryOfTheLost",
       "type": "musicdisc",
-      "sortid": 45,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -215,7 +206,7 @@
     {
       "name": "BlackDyeEdible",
       "type": "food",
-      "sortid": 16,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -224,7 +215,7 @@
     {
       "name": "BlueDyeEdible",
       "type": "food",
-      "sortid": 17,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -233,7 +224,7 @@
     {
       "name": "BrownDyeEdible",
       "type": "food",
-      "sortid": 18,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -242,7 +233,7 @@
     {
       "name": "CyanDyeEdible",
       "type": "food",
-      "sortid": 19,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -251,7 +242,7 @@
     {
       "name": "GrayDyeEdible",
       "type": "food",
-      "sortid": 20,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -260,7 +251,7 @@
     {
       "name": "GreenDyeEdible",
       "type": "food",
-      "sortid": 21,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -269,7 +260,7 @@
     {
       "name": "LightBlueDyeEdible",
       "type": "food",
-      "sortid": 22,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -278,7 +269,7 @@
     {
       "name": "LightGrayDyeEdible",
       "type": "food",
-      "sortid": 23,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -287,7 +278,7 @@
     {
       "name": "LimeDyeEdible",
       "type": "food",
-      "sortid": 24,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -296,7 +287,7 @@
     {
       "name": "MagentaDyeEdible",
       "type": "food",
-      "sortid": 25,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -305,7 +296,7 @@
     {
       "name": "OrangeDyeEdible",
       "type": "food",
-      "sortid": 26,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -314,7 +305,7 @@
     {
       "name": "PinkDyeEdible",
       "type": "food",
-      "sortid": 27,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -323,7 +314,7 @@
     {
       "name": "PurpleDyeEdible",
       "type": "food",
-      "sortid": 28,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -332,7 +323,7 @@
     {
       "name": "RedDyeEdible",
       "type": "food",
-      "sortid": 29,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -341,7 +332,7 @@
     {
       "name": "WhiteDyeEdible",
       "type": "food",
-      "sortid": 30,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -350,7 +341,7 @@
     {
       "name": "YellowDyeEdible",
       "type": "food",
-      "sortid": 31,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -359,7 +350,7 @@
     {
       "name": "MortarAndPestle",
       "type": "item",
-      "sortid": 15,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -368,7 +359,7 @@
     {
       "name": "BlackDyeEdibleRecipe",
       "type": "recipe",
-      "sortid": 53,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -377,7 +368,7 @@
     {
       "name": "BlueDyeEdibleRecipe",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -386,7 +377,7 @@
     {
       "name": "BrownDyeEdibleRecipe",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -395,7 +386,7 @@
     {
       "name": "CyanDyeEdibleRecipe",
       "type": "recipe",
-      "sortid": 56,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -404,7 +395,7 @@
     {
       "name": "GrayDyeEdibleRecipe",
       "type": "recipe",
-      "sortid": 57,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -413,7 +404,7 @@
     {
       "name": "GreenDyeEdibleRecipe",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -422,7 +413,7 @@
     {
       "name": "LightBlueDyeEdibleRecipe",
       "type": "recipe",
-      "sortid": 59,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -431,7 +422,7 @@
     {
       "name": "LightGrayDyeEdibleRecipe",
       "type": "recipe",
-      "sortid": 60,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -440,7 +431,7 @@
     {
       "name": "LimeDyeEdibleRecipe",
       "type": "recipe",
-      "sortid": 61,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -449,7 +440,7 @@
     {
       "name": "MagentaDyeEdibleRecipe",
       "type": "recipe",
-      "sortid": 62,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -458,7 +449,7 @@
     {
       "name": "OrangeDyeEdibleRecipe",
       "type": "recipe",
-      "sortid": 63,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -467,7 +458,7 @@
     {
       "name": "PinkDyeEdibleRecipe",
       "type": "recipe",
-      "sortid": 64,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -476,7 +467,7 @@
     {
       "name": "PurpleDyeEdibleRecipe",
       "type": "recipe",
-      "sortid": 65,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -485,7 +476,7 @@
     {
       "name": "RedDyeEdibleRecipe",
       "type": "recipe",
-      "sortid": 66,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -494,7 +485,7 @@
     {
       "name": "WhiteDyeEdibleRecipe",
       "type": "recipe",
-      "sortid": 67,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -503,7 +494,7 @@
     {
       "name": "YellowDyeEdibleRecipe",
       "type": "recipe",
-      "sortid": 68,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -512,7 +503,7 @@
     {
       "name": "NectarMobplayerCollidesBlock",
       "type": "procedure",
-      "sortid": 69,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -529,7 +520,7 @@
     {
       "name": "Nectar",
       "type": "fluid",
-      "sortid": 33,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -538,7 +529,7 @@
     {
       "name": "BemboGUI",
       "type": "gui",
-      "sortid": 70,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -547,7 +538,7 @@
     {
       "name": "MailSachel",
       "type": "item",
-      "sortid": 41,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -556,7 +547,7 @@
     {
       "name": "GlowingNectar",
       "type": "fluid",
-      "sortid": 34,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -565,7 +556,7 @@
     {
       "name": "GlowingNectarMobplayerCollidesBlock",
       "type": "procedure",
-      "sortid": 71,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -582,7 +573,7 @@
     {
       "name": "ExplosiveVoidBlockDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 72,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -624,7 +615,7 @@
     {
       "name": "ExplosiveVoidBlockDestroyedByExplosion",
       "type": "procedure",
-      "sortid": 73,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -660,33 +651,6 @@
       "registry_name": "void_chunk"
     },
     {
-      "name": "NectarOverlay",
-      "type": "overlay",
-      "sortid": 74,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "nectar_overlay"
-    },
-    {
-      "name": "EnglishPotion",
-      "type": "potion",
-      "sortid": 75,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "english_potion"
-    },
-    {
-      "name": "Nectard",
-      "type": "potion",
-      "sortid": 76,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "nectard"
-    },
-    {
       "name": "VoidTendril",
       "type": "item",
       "sortid": 9,
@@ -698,7 +662,7 @@
     {
       "name": "VoidChunkRecipe",
       "type": "recipe",
-      "sortid": 77,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -707,7 +671,7 @@
     {
       "name": "VoidChunkTendril",
       "type": "recipe",
-      "sortid": 78,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -716,7 +680,7 @@
     {
       "name": "VoidTendrilEssence",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -734,7 +698,7 @@
     {
       "name": "BlackBlock",
       "type": "block",
-      "sortid": 40,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -743,7 +707,7 @@
     {
       "name": "RainyWindowBorder",
       "type": "block",
-      "sortid": 36,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -752,7 +716,7 @@
     {
       "name": "RainyWindowNoBorder",
       "type": "block",
-      "sortid": 37,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -761,7 +725,7 @@
     {
       "name": "RainyWindowBorderPain",
       "type": "block",
-      "sortid": 38,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -770,7 +734,7 @@
     {
       "name": "RainyWindowPane",
       "type": "block",
-      "sortid": 39,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -806,7 +770,7 @@
     {
       "name": "AntiVoidClump",
       "type": "item",
-      "sortid": 14,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -820,6 +784,211 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "clump_to_block"
+    },
+    {
+      "name": "NectarBucketPlace",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nectar_bucket_place",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidAnimatedEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_animated_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NectarBottlefill",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nectar_bottlefill",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bucketemptynectar",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bucketemptynectar"
+    },
+    {
+      "name": "Badapple",
+      "type": "musicdisc",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "badapple"
+    },
+    {
+      "name": "NectarBottle",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nectar_bottle"
+    },
+    {
+      "name": "AntiVoidDEATH",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anti_void_death",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NectarBottleEmpty",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nectar_bottle_empty"
+    },
+    {
+      "name": "NectarBucketFill",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nectar_bucket_fill",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlowingNectarPlacable",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowing_nectar_placable"
+    },
+    {
+      "name": "NectarBucket",
+      "type": "item",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nectar_bucket_full"
+    },
+    {
+      "name": "MortarPestleRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mortar_pestle_recipe"
+    },
+    {
+      "name": "NectarBlockPlaceholder",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nectar_block_placeholder"
     }
   ],
   "variable_elements": [
@@ -845,6 +1014,46 @@
       "name": "memoryofthelost",
       "file": "code_vein_ost__memory_of_the_lost",
       "category": "record"
+    },
+    {
+      "name": "lostwoods",
+      "file": "lost_woods",
+      "category": "record"
+    },
+    {
+      "name": "run",
+      "file": "run",
+      "category": "record"
+    },
+    {
+      "name": "calmdown",
+      "file": "corbin_-_calmdown_prod._bobbyraps",
+      "category": "record"
+    },
+    {
+      "name": "badapple",
+      "file": "bad_apple",
+      "category": "record"
+    },
+    {
+      "name": "sinners",
+      "file": "barns_courtney_-_sinners_audio_1",
+      "category": "record"
+    },
+    {
+      "name": "legendofthekeeper",
+      "file": "magic_sword_-_legend_of_the_keeper",
+      "category": "record"
+    },
+    {
+      "name": "bravenewworld",
+      "file": "kalandra_-_brave_new_world_lyric_video",
+      "category": "record"
+    },
+    {
+      "name": "whoseesyou",
+      "file": "who_sees_you",
+      "category": "record"
     }
   ],
   "language_map": {
@@ -852,41 +1061,34 @@
       "item.soulinmod.glowing_nectar_bucket": "GlowingNectar Bucket",
       "block.soulinmod.crystalized_void": "Crystalized Void",
       "block.soulinmod.rainy_window_no_border": "Rainy Window Border",
-      "effect.nectard": "Nectar\u0027d",
       "block.soulinmod.spookyblock": "Spookyblock",
-      "item.minecraft.potion.effect.nectard": "Nectard",
       "block.soulinmod.plant_core_c": "Plant Core C",
-      "item.soulinmod.white_dye_edible": "White Dye (edible)",
       "itemGroup.tabsoulintary_music": "Soulintary Music",
+      "item.soulinmod.white_dye_edible": "White Dye (edible)",
       "item.soulinmod.memory_of_the_lost.desc": "Code Vein - Memory Of The Lost",
       "fluid.nectar": "Nectar",
-      "item.soulinmod.red_dye_edible": "Red Dye (edible)",
-      "item.soulinmod.dark_matter.desc": "Les Friction - Dark Matter",
-      "block.soulinmod.anti_void_stairs": "Anti Void Stairs",
       "block.soulinmod.anti_void_slab": "Anti Void Slab",
+      "block.soulinmod.anti_void_stairs": "Anti Void Stairs",
+      "item.soulinmod.dark_matter.desc": "Les Friction - Dark Matter",
+      "item.soulinmod.red_dye_edible": "Red Dye (edible)",
       "item.soulinmod.gray_dye_edible": "Gray Dye (edible)",
-      "item.soulinmod.dark_matter": "Dark Matter",
       "item.soulinmod.void_chunk": "Void Chunk",
+      "item.soulinmod.dark_matter": "Dark Matter",
       "item.soulinmod.memory_of_the_lost": "Memory Of The Lost",
       "itemGroup.tabsoul_items": "Soulintary",
       "item.soulinmod.void_tendril": "Void Tendril",
       "item.soulinmod.lime_dye_edible": "Lime Dye (edible)",
       "item.soulinmod.black_dye_edible": "Black Dye (edible)",
-      "item.minecraft.lingering_potion.effect.nectard": "Lingering Nectard",
       "item.soulinmod.blue_dye_edible": "Blue Dye (edible)",
       "block.soulinmod.anti_void": "Anti Void",
       "block.soulinmod.void_block": "Void Block",
       "block.soulinmod.rainy_window_border_pain": "Rainy Window Border Pane",
-      "item.minecraft.splash_potion.effect.english_potion": "Splash English Potion",
       "block.soulinmod.void_animated": "Void Animated",
-      "item.minecraft.tipped_arrow.effect.nectard": "Arrow of Nectard",
       "block.soulinmod.black_block": "Black Block",
       "block.soulinmod.rainy_window_border": "Rainy Window Border",
       "item.soulinmod.glitter_and_gold.desc": "Barns Courtney - Glitter And Gold",
       "item.soulinmod.brown_dye_edible": "Brown Dye (edible)",
       "item.soulinmod.anti_void_clump": "Anti Void Clump",
-      "effect.english_potion": "English Potion",
-      "item.minecraft.lingering_potion.effect.english_potion": "Lingering English Potion",
       "block.soulinmod.void_animated_stairs": "Void Stairs",
       "item.soulinmod.pink_dye_edible": "Pink Dye (edible)",
       "block.soulinmod.rainy_window_pane": "Rainy Window Pane",
@@ -894,7 +1096,6 @@
       "block.soulinmod.explosive_void": "Explosive Void",
       "item.soulinmod.mail_sachel": "Mail Sachel",
       "item.soulinmod.cyan_dye_edible": "Cyan Dye (edible)",
-      "item.minecraft.potion.effect.english_potion": "English Potion",
       "item.soulinmod.green_dye_edible": "Green Dye (edible)",
       "item.soulinmod.yellow_dye_edible": "Yellow Dye (edible)",
       "item.soulinmod.light_gray_dye_edible": "Light Gray Dye (edible)",
@@ -902,11 +1103,9 @@
       "block.soulinmod.hardened_void": "Hardened Void",
       "block.soulinmod.void_animated_slab": "Void Slab",
       "item.soulinmod.purple_dye_edible": "Black Dye (edible)",
-      "item.minecraft.tipped_arrow.effect.english_potion": "Arrow of English Potion",
       "item.soulinmod.glitter_and_gold": "Glitter And Gold",
       "item.soulinmod.light_blue_dye_edible": "Light Blue Dye (edible)",
       "item.soulinmod.void_essense": "Void Essense",
-      "item.minecraft.splash_potion.effect.nectard": "Splash Nectard",
       "item.soulinmod.magenta_dye_edible": "Magenta Dye (edible)",
       "item.soulinmod.nectar_bucket": "Nectar Bucket",
       "item.soulinmod.orange_dye_edible": "Orange Dye (edible)",

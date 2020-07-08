@@ -1,48 +1,15 @@
 
 package net.alkia.soulinmod.block;
 
-import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.storage.loot.LootContext;
-import net.minecraft.world.World;
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
-import net.minecraft.util.math.BlockRayTraceResult;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Hand;
-import net.minecraft.util.Direction;
-import net.minecraft.util.BlockRenderLayer;
-import net.minecraft.particles.ParticleTypes;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.BlockItem;
-import net.minecraft.fluid.IFluidState;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.Entity;
-import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.client.Minecraft;
-import net.minecraft.block.material.Material;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Block;
-
-import net.alkia.soulinmod.procedures.SpookyblockPlayerStartsToDestroyProcedure;
-import net.alkia.soulinmod.itemgroup.SoulItemsItemGroup;
-import net.alkia.soulinmod.SoulinmodModElements;
-
-import java.util.Random;
-import java.util.List;
-import java.util.Collections;
-
 @SoulinmodModElements.ModElement.Tag
 public class SpookyblockBlock extends SoulinmodModElements.ModElement {
+
 	@ObjectHolder("soulinmod:spookyblock")
 	public static final Block block = null;
+
 	public SpookyblockBlock(SoulinmodModElements instance) {
-		super(instance, 32);
+		super(instance, 41);
+
 	}
 
 	@Override
@@ -50,9 +17,14 @@ public class SpookyblockBlock extends SoulinmodModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(SoulItemsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
+
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).lightValue(0));
+			super(
+
+					Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).lightValue(0));
+
 			setRegistryName("spookyblock");
 		}
 
@@ -120,6 +92,7 @@ public class SpookyblockBlock extends SoulinmodModElements.ModElement {
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
+
 				SpookyblockPlayerStartsToDestroyProcedure.executeProcedure($_dependencies);
 			}
 			return retval;
@@ -134,6 +107,7 @@ public class SpookyblockBlock extends SoulinmodModElements.ModElement {
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
+
 				SpookyblockPlayerStartsToDestroyProcedure.executeProcedure($_dependencies);
 			}
 		}
@@ -147,6 +121,7 @@ public class SpookyblockBlock extends SoulinmodModElements.ModElement {
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
+
 				SpookyblockPlayerStartsToDestroyProcedure.executeProcedure($_dependencies);
 			}
 		}
@@ -160,6 +135,7 @@ public class SpookyblockBlock extends SoulinmodModElements.ModElement {
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
+
 				SpookyblockPlayerStartsToDestroyProcedure.executeProcedure($_dependencies);
 			}
 		}
@@ -170,13 +146,18 @@ public class SpookyblockBlock extends SoulinmodModElements.ModElement {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
+
 			Direction direction = hit.getFace();
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
+
 				SpookyblockPlayerStartsToDestroyProcedure.executeProcedure($_dependencies);
 			}
+
 			return true;
 		}
+
 	}
+
 }

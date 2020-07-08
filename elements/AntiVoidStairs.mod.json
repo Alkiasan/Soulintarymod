@@ -12,9 +12,9 @@
     "customModelName": "Single texture",
     "rotationMode": 0,
     "blockBase": "Stairs",
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "TRANSLUCENT",
+    "transparencyType": "SOLID",
     "mx": 0.0,
     "my": 0.0,
     "mz": 0.0,
@@ -23,7 +23,10 @@
     "Mz": 1.0,
     "name": "Anti Void Stairs",
     "specialInfo": [
-      "template"
+      "Holding onto the mass of light... you almost don't",
+      "feel it at all. You feel the weight on your arms yet",
+      "feel nothing in your hands. It is extremely warm",
+      "to the touch."
     ],
     "hardness": 2.0,
     "resistance": 50.0,
@@ -31,7 +34,7 @@
     "creativeTab": {
       "value": "CUSTOM:SoulItems"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": "CUSTOM:AntiVoidClump"
     },
@@ -82,6 +85,12 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
+    "onEntityCollides": {
+      "name": "AntiVoidDEATH"
+    },
+    "onEntityWalksOn": {
+      "name": "AntiVoidDEATH"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

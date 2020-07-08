@@ -11,9 +11,9 @@
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "TRANSLUCENT",
+    "transparencyType": "SOLID",
     "mx": 0.0,
     "my": 0.0,
     "mz": 0.0,
@@ -22,7 +22,10 @@
     "Mz": 1.0,
     "name": "Anti Void",
     "specialInfo": [
-      "template"
+      "Holding onto the mass of light... you almost don't",
+      "feel it at all. You feel the weight on your arms yet",
+      "feel nothing in your hands. It is extremely warm",
+      "to the touch."
     ],
     "hardness": 2.0,
     "resistance": 50.0,
@@ -30,14 +33,14 @@
     "creativeTab": {
       "value": "CUSTOM:SoulItems"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": "CUSTOM:AntiVoidClump"
     },
     "dropAmount": 3,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": false,
+    "plantsGrowOn": true,
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
@@ -81,6 +84,12 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
+    "onEntityCollides": {
+      "name": "AntiVoidDEATH"
+    },
+    "onEntityWalksOn": {
+      "name": "AntiVoidDEATH"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

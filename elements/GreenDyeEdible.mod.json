@@ -7,7 +7,9 @@
     "customModelName": "Normal",
     "name": "Green Dye (edible)",
     "specialInfo": [
-      "??5An edible variant of green dye."
+      "A normal but more refiend dye",
+      "you'd probably think twice about",
+      "eating straight up dye but Lily seems to enjoy it"
     ],
     "creativeTab": {
       "value": "CUSTOM:SoulItems"

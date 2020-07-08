@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:VoidBlock"
+      "value": "CUSTOM:VoidAnimated"
     },
     "name": "void_chunk_recipe",
     "namespace": "mod"

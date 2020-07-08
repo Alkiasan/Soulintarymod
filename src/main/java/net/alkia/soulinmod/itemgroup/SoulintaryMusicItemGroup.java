@@ -1,19 +1,11 @@
 
 package net.alkia.soulinmod.itemgroup;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.item.Items;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-
-import net.alkia.soulinmod.SoulinmodModElements;
-
 @SoulinmodModElements.ModElement.Tag
 public class SoulintaryMusicItemGroup extends SoulinmodModElements.ModElement {
+
 	public SoulintaryMusicItemGroup(SoulinmodModElements instance) {
-		super(instance, 42);
+		super(instance, 51);
 	}
 
 	@Override
@@ -31,5 +23,7 @@ public class SoulintaryMusicItemGroup extends SoulinmodModElements.ModElement {
 			}
 		}.setBackgroundImageName("item_search.png");
 	}
+
 	public static ItemGroup tab;
+
 }

@@ -21,7 +21,7 @@ public class VoidTendrilItem extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:void_tendril")
 	public static final Item block = null;
 	public VoidTendrilItem(SoulinmodModElements instance) {
-		super(instance, 8);
+		super(instance, 9);
 	}
 
 	@Override
@@ -52,7 +52,10 @@ public class VoidTendrilItem extends SoulinmodModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Void Tendril template"));
+			list.add(new StringTextComponent("Holding onto a single tendril, it wraps around your fingers"));
+			list.add(new StringTextComponent("and squeezes. There isn't much for it to do"));
+			list.add(new StringTextComponent(",although the thought of it still being active is..."));
+			list.add(new StringTextComponent("unsettling to say the least."));
 		}
 	}
 }

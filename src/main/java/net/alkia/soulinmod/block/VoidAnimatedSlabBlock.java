@@ -6,6 +6,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.world.World;
 import net.minecraft.world.IWorldReader;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.text.StringTextComponent;
@@ -14,6 +15,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
+import net.minecraft.entity.Entity;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
@@ -22,6 +24,7 @@ import net.minecraft.block.SlabBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.alkia.soulinmod.procedures.VoidAnimatedEntityCollidesInTheBlockProcedure;
 import net.alkia.soulinmod.itemgroup.SoulItemsItemGroup;
 import net.alkia.soulinmod.item.VoidChunkItem;
 import net.alkia.soulinmod.SoulinmodModElements;
@@ -52,7 +55,9 @@ public class VoidAnimatedSlabBlock extends SoulinmodModElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Void Block Template"));
+			list.add(new StringTextComponent("Pure Darkness, Dark tendrils attempt to grab at you"));
+			list.add(new StringTextComponent("as you hold it in your arms. beware not"));
+			list.add(new StringTextComponent("to let it pull you in despite its size."));
 		}
 
 		@Override
@@ -71,6 +76,32 @@ public class VoidAnimatedSlabBlock extends SoulinmodModElements.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(VoidChunkItem.block, (int) (1)));
+		}
+
+		@Override
+		public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
+			super.onEntityCollision(state, world, pos, entity);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				VoidAnimatedEntityCollidesInTheBlockProcedure.executeProcedure($_dependencies);
+			}
+		}
+
+		@Override
+		public void onEntityWalk(World world, BlockPos pos, Entity entity) {
+			super.onEntityWalk(world, pos, entity);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				VoidAnimatedEntityCollidesInTheBlockProcedure.executeProcedure($_dependencies);
+			}
 		}
 	}
 }

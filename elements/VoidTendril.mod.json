@@ -19,7 +19,10 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Void Tendril template"
+      "Holding onto a single tendril, it wraps around your fingers",
+      "and squeezes. There isn't much for it to do",
+      ",although the thought of it still being active is...",
+      "unsettling to say the least."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

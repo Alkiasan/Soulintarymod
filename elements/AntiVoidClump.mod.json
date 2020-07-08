@@ -19,7 +19,10 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "template"
+      "Holding onto the mass of light... you almost don't",
+      "feel it at all. You feel the weight on your arms yet",
+      "feel nothing in your hands. It is extremely warm",
+      "to the touch."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

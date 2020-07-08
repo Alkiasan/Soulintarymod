@@ -22,7 +22,7 @@
     "Mz": 1.0,
     "name": "Black Block",
     "specialInfo": [
-      "bye bye sight"
+      "bye bye sight \\ Scenery go burrrrr"
     ],
     "hardness": 50.0,
     "resistance": 20.0,
@@ -41,7 +41,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "BARRIER"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -59,7 +59,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "HONEY"
+      "value": "GLASS"
     },
     "luminance": 0.0,
     "unbreakable": true,

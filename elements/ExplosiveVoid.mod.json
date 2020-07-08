@@ -22,7 +22,9 @@
     "Mz": 1.0,
     "name": "Explosive Void",
     "specialInfo": [
-      "Void go boom now"
+      "A Large chunk of pulsating void",
+      "it's veins carry with it some glowing fluids",
+      "that glow as you come close to contact."
     ],
     "hardness": 0.5,
     "resistance": 0.0,

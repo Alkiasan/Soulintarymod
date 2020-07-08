@@ -21,7 +21,7 @@ public class VoidChunkItem extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:void_chunk")
 	public static final Item block = null;
 	public VoidChunkItem(SoulinmodModElements instance) {
-		super(instance, 7);
+		super(instance, 8);
 	}
 
 	@Override
@@ -52,7 +52,11 @@ public class VoidChunkItem extends SoulinmodModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Void Chunk Template"));
+			list.add(new StringTextComponent("The Abyss squirms in your hand, its gooey mass is void"));
+			list.add(new StringTextComponent("of heat and chills the palm of your hands. its consistency"));
+			list.add(new StringTextComponent("Is thick, but its texture gives off the feeling like you're"));
+			list.add(new StringTextComponent("petting a big dry slug. staring into it, you sense that the"));
+			list.add(new StringTextComponent("darkness is much deeper than its letting on"));
 		}
 	}
 }

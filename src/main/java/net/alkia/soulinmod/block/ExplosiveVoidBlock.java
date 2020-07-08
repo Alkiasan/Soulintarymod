@@ -39,7 +39,7 @@ public class ExplosiveVoidBlock extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:explosive_void")
 	public static final Block block = null;
 	public ExplosiveVoidBlock(SoulinmodModElements instance) {
-		super(instance, 6);
+		super(instance, 7);
 	}
 
 	@Override
@@ -58,7 +58,9 @@ public class ExplosiveVoidBlock extends SoulinmodModElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Void go boom now"));
+			list.add(new StringTextComponent("A Large chunk of pulsating void"));
+			list.add(new StringTextComponent("it's veins carry with it some glowing fluids"));
+			list.add(new StringTextComponent("that glow as you come close to contact."));
 		}
 
 		@Override
