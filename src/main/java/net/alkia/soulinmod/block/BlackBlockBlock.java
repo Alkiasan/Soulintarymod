@@ -39,7 +39,7 @@ public class BlackBlockBlock extends SoulinmodModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.BARRIER).sound(SoundType.GROUND).hardnessAndResistance(-1, 3600000).lightValue(0));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.GLASS).hardnessAndResistance(-1, 3600000).lightValue(0));
 			setRegistryName("black_block");
 		}
 

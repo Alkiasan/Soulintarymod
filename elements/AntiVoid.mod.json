@@ -30,14 +30,14 @@
     "creativeTab": {
       "value": "CUSTOM:SoulItems"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": "CUSTOM:AntiVoidClump"
     },
     "dropAmount": 3,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": false,
+    "plantsGrowOn": true,
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
@@ -81,6 +81,12 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
+    "onEntityCollides": {
+      "name": "AntiVoidDEATH"
+    },
+    "onEntityWalksOn": {
+      "name": "AntiVoidDEATH"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

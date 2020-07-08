@@ -41,7 +41,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "BARRIER"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -59,7 +59,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "HONEY"
+      "value": "GLASS"
     },
     "luminance": 0.0,
     "unbreakable": true,

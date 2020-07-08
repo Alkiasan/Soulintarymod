@@ -81,6 +81,12 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
+    "onEntityCollides": {
+      "name": "VoidAnimatedEntityCollidesInTheBlock"
+    },
+    "onEntityWalksOn": {
+      "name": "VoidAnimatedEntityCollidesInTheBlock"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],
