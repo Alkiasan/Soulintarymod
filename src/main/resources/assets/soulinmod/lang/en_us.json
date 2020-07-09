@@ -1,5 +1,5 @@
 {
-  "item.soulinmod.glowing_nectar_bucket": "GlowingNectar Bucket",
+  "item.soulinmod.glowing_nectar_bucket": "Glowing Nectar Bucket",
   "block.soulinmod.crystalized_void": "Crystalized Void",
   "block.soulinmod.rainy_window_no_border": "Rainy Window Border",
   "block.soulinmod.spookyblock": "Spookyblock",
@@ -22,8 +22,8 @@
   "item.soulinmod.lime_dye_edible": "Lime Dye (edible)",
   "item.soulinmod.black_dye_edible": "Black Dye (edible)",
   "item.soulinmod.blue_dye_edible": "Blue Dye (edible)",
-  "block.soulinmod.glowing_nectar_placable": "Nectar Block Placeholder",
-  "block.soulinmod.nectar_block_placeholder": "Nectar Block Placeholder",
+  "block.soulinmod.glowing_nectar_placable": "Glowing Nectar Block",
+  "block.soulinmod.nectar_block_placeholder": "Nectar Block",
   "item.soulinmod.badapple.desc": "Bioweapon - Lily Track 2",
   "block.soulinmod.anti_void": "Anti Void",
   "block.soulinmod.void_block": "Void Block",
