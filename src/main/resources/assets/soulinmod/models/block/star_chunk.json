@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soulinmod:blocks/antivoid",
+    "up": "soulinmod:blocks/antivoid",
+    "north": "soulinmod:blocks/antivoid",
+    "east": "soulinmod:blocks/antivoid",
+    "south": "soulinmod:blocks/antivoid",
+    "west": "soulinmod:blocks/antivoid",
+    "particle": "soulinmod:blocks/antivoid"
+  }
+}

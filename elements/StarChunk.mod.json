@@ -2,12 +2,12 @@
   "_fv": 8,
   "_type": "block",
   "definition": {
-    "texture": "crystalized_void",
-    "textureTop": "crystalized_void",
-    "textureLeft": "crystalized_void",
-    "textureFront": "crystalized_void",
-    "textureRight": "crystalized_void",
-    "textureBack": "crystalized_void",
+    "texture": "antivoid",
+    "textureTop": "antivoid",
+    "textureLeft": "antivoid",
+    "textureFront": "antivoid",
+    "textureRight": "antivoid",
+    "textureBack": "antivoid",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -20,16 +20,10 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Crystalized Void",
-    "specialInfo": [
-      "A Large glowing mass of Void. Despite it's reputation,",
-      "This glows white with some kind of strange energy.",
-      "The surface of the energized scarrings is warm",
-      "to the touch unlike the rest of the void it's",
-      "connected to."
-    ],
-    "hardness": 1.6,
-    "resistance": 6.0,
+    "name": "Star Chunk",
+    "specialInfo": [],
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:SoulItems"
@@ -43,21 +37,21 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 255,
+    "lightOpacity": 0,
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 10,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "IRON",
     "creativePickItem": {
       "value": ""
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 5,
-    "fireSpreadSpeed": 35,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
     "reactionToPushing": "NORMAL",
@@ -68,9 +62,9 @@
     "luminance": 1.0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "FIREWORKS_SPARK"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
@@ -88,9 +82,9 @@
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],
-    "frequencyPerChunks": 1,
-    "frequencyOnChunk": 1,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 0
+    "maxGenerateHeight": 64
   }
 }

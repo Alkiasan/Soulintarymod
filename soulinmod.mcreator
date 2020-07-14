@@ -948,6 +948,39 @@
           }
         ]
       }
+    },
+    {
+      "name": "VialNectarRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vial_nectar_recipe"
+    },
+    {
+      "name": "FlowerCrown",
+      "type": "armor",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_crown",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "StarChunk",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "star_chunk"
     }
   ],
   "variable_elements": [
@@ -1018,22 +1051,23 @@
   "language_map": {
     "en_us": {
       "item.soulinmod.glowing_nectar_bucket": "Glowing Nectar Bucket",
+      "item.soulinmod.flower_crownboots": "Flower Crown Boots",
       "block.soulinmod.crystalized_void": "Crystalized Void",
       "block.soulinmod.rainy_window_no_border": "Rainy Window Border",
       "block.soulinmod.spookyblock": "Spookyblock",
       "block.soulinmod.plant_core_c": "Plant Core C",
-      "item.soulinmod.white_dye_edible": "White Dye (edible)",
       "itemGroup.tabsoulintary_music": "Soulintary Music",
+      "item.soulinmod.white_dye_edible": "White Dye (edible)",
       "item.soulinmod.memory_of_the_lost.desc": "Code Vein - Memory Of The Lost",
       "fluid.nectar": "Nectar",
-      "item.soulinmod.red_dye_edible": "Red Dye (edible)",
-      "item.soulinmod.dark_matter.desc": "Les Friction - Dark Matter",
-      "block.soulinmod.anti_void_stairs": "Anti Void Stairs",
       "block.soulinmod.anti_void_slab": "Anti Void Slab",
+      "block.soulinmod.anti_void_stairs": "Anti Void Stairs",
+      "item.soulinmod.dark_matter.desc": "Les Friction - Dark Matter",
+      "item.soulinmod.red_dye_edible": "Red Dye (edible)",
       "item.soulinmod.badapple": "Bioweapon (Lily Track 2)",
       "item.soulinmod.gray_dye_edible": "Gray Dye (edible)",
-      "item.soulinmod.dark_matter": "Dark Matter",
       "item.soulinmod.void_chunk": "Void Chunk",
+      "item.soulinmod.dark_matter": "Dark Matter",
       "item.soulinmod.memory_of_the_lost": "Memory Of The Lost",
       "itemGroup.tabsoul_items": "Soulintary",
       "item.soulinmod.void_tendril": "Void Tendril",
@@ -1049,6 +1083,7 @@
       "block.soulinmod.void_animated": "Void",
       "block.soulinmod.black_block": "Black Block",
       "block.soulinmod.rainy_window_border": "Rainy Window Border",
+      "item.soulinmod.flower_crownlegs": "Flower Crown Leggings",
       "item.soulinmod.glitter_and_gold.desc": "Barns Courtney - Glitter And Gold",
       "item.soulinmod.brown_dye_edible": "Brown Dye (edible)",
       "item.soulinmod.anti_void_clump": "Anti Void Clump",
@@ -1062,6 +1097,7 @@
       "item.soulinmod.mail_sachel": "Mail Sachel",
       "item.soulinmod.cyan_dye_edible": "Cyan Dye (edible)",
       "item.soulinmod.nectar_bottle_food": "Vial of Nectar",
+      "item.soulinmod.flower_crownbody": "Flower Crown Body",
       "item.soulinmod.green_dye_edible": "Green Dye (edible)",
       "item.soulinmod.yellow_dye_edible": "Yellow Dye (edible)",
       "item.soulinmod.light_gray_dye_edible": "Light Gray Dye (edible)",
@@ -1069,9 +1105,11 @@
       "block.soulinmod.hardened_void": "Hardened Void",
       "block.soulinmod.void_animated_slab": "Void Slab",
       "item.soulinmod.purple_dye_edible": "Black Dye (edible)",
+      "block.soulinmod.star_chunk": "Star Chunk",
       "item.soulinmod.glitter_and_gold": "Glitter And Gold",
       "item.soulinmod.light_blue_dye_edible": "Light Blue Dye (edible)",
       "item.soulinmod.void_essense": "Void Essense",
+      "item.soulinmod.flower_crownhelmet": "Flower Crown",
       "item.soulinmod.magenta_dye_edible": "Magenta Dye (edible)",
       "item.soulinmod.nectar_bucket": "Nectar Bucket",
       "item.soulinmod.orange_dye_edible": "Orange Dye (edible)",
@@ -1090,7 +1128,8 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.14.4",
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.alkia.soulinmod",
     "lockBaseModFiles": false
   },
