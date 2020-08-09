@@ -21,13 +21,13 @@ import net.alkia.soulinmod.SoulinmodModElements;
 
 @SoulinmodModElements.ModElement.Tag
 public class FlowerCrownItem extends SoulinmodModElements.ModElement {
-	@ObjectHolder("soulinmod:flower_crownhelmet")
+	@ObjectHolder("soulinmod:flower_crown_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("soulinmod:flower_crownbody")
+	@ObjectHolder("soulinmod:flower_crown_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("soulinmod:flower_crownlegs")
+	@ObjectHolder("soulinmod:flower_crown_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("soulinmod:flower_crownboots")
+	@ObjectHolder("soulinmod:flower_crown_boots")
 	public static final Item boots = null;
 	public FlowerCrownItem(SoulinmodModElements instance) {
 		super(instance, 98);
@@ -70,6 +70,6 @@ public class FlowerCrownItem extends SoulinmodModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "soulinmod:textures/models/armor/falower__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("flower_crownhelmet"));
+		}.setRegistryName("flower_crown_helmet"));
 	}
 }

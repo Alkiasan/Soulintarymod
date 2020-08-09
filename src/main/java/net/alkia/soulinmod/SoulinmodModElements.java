@@ -7,27 +7,23 @@
 package net.alkia.soulinmod;
 
 import net.minecraftforge.forgespi.language.ModFileScanData;
-import net.minecraftforge.fml.network.PacketDistributor;
 import net.minecraftforge.fml.network.NetworkEvent;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.ModList;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.storage.WorldSavedData;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.tags.Tag;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.item.Item;
-import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.EntityType;
+import net.minecraft.enchantment.Enchantment;
 import net.minecraft.block.Block;
 
 import java.util.function.Supplier;
@@ -49,6 +45,7 @@ public class SoulinmodModElements {
 	public final List<Supplier<Item>> items = new ArrayList<>();
 	public final List<Supplier<Biome>> biomes = new ArrayList<>();
 	public final List<Supplier<EntityType<?>>> entities = new ArrayList<>();
+	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public SoulinmodModElements() {
 		sounds.put(new ResourceLocation("soulinmod", "darkmattermusic"),
@@ -83,38 +80,12 @@ public class SoulinmodModElements {
 		}
 		Collections.sort(elements);
 		elements.forEach(SoulinmodModElements.ModElement::initElements);
-		this.addNetworkMessage(SoulinmodModVariables.WorldSavedDataSyncMessage.class, SoulinmodModVariables.WorldSavedDataSyncMessage::buffer,
-				SoulinmodModVariables.WorldSavedDataSyncMessage::new, SoulinmodModVariables.WorldSavedDataSyncMessage::handler);
-		MinecraftForge.EVENT_BUS.register(this);
+		MinecraftForge.EVENT_BUS.register(new SoulinmodModVariables(this));
 	}
 
 	public void registerSounds(RegistryEvent.Register<net.minecraft.util.SoundEvent> event) {
 		for (Map.Entry<ResourceLocation, net.minecraft.util.SoundEvent> sound : sounds.entrySet())
 			event.getRegistry().register(sound.getValue().setRegistryName(sound.getKey()));
-	}
-
-	@SubscribeEvent
-	public void onPlayerLoggedIn(PlayerEvent.PlayerLoggedInEvent event) {
-		if (!event.getPlayer().world.isRemote) {
-			WorldSavedData mapdata = SoulinmodModVariables.MapVariables.get(event.getPlayer().world);
-			WorldSavedData worlddata = SoulinmodModVariables.WorldVariables.get(event.getPlayer().world);
-			if (mapdata != null)
-				SoulinmodMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) event.getPlayer()),
-						new SoulinmodModVariables.WorldSavedDataSyncMessage(0, mapdata));
-			if (worlddata != null)
-				SoulinmodMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) event.getPlayer()),
-						new SoulinmodModVariables.WorldSavedDataSyncMessage(1, worlddata));
-		}
-	}
-
-	@SubscribeEvent
-	public void onPlayerChangedDimension(PlayerEvent.PlayerChangedDimensionEvent event) {
-		if (!event.getPlayer().world.isRemote) {
-			WorldSavedData worlddata = SoulinmodModVariables.WorldVariables.get(event.getPlayer().world);
-			if (worlddata != null)
-				SoulinmodMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) event.getPlayer()),
-						new SoulinmodModVariables.WorldSavedDataSyncMessage(1, worlddata));
-		}
 	}
 	private int messageID = 0;
 	public <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, PacketBuffer> encoder, Function<PacketBuffer, T> decoder,
@@ -141,6 +112,10 @@ public class SoulinmodModElements {
 
 	public List<Supplier<EntityType<?>>> getEntities() {
 		return entities;
+	}
+
+	public List<Supplier<Enchantment>> getEnchantments() {
+		return enchantments;
 	}
 	public static class ModElement implements Comparable<ModElement> {
 		@Retention(RetentionPolicy.RUNTIME)

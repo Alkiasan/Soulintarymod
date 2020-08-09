@@ -24,7 +24,9 @@ import net.alkia.soulinmod.procedures.BemboFeatherRightClickedProcedure;
 import net.alkia.soulinmod.itemgroup.SoulItemsItemGroup;
 import net.alkia.soulinmod.SoulinmodModElements;
 
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 
 @SoulinmodModElements.ModElement.Tag
 public class BemboFeatherItem extends SoulinmodModElements.ModElement {
@@ -76,11 +78,11 @@ public class BemboFeatherItem extends SoulinmodModElements.ModElement {
 		public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
 			ActionResult<ItemStack> ar = super.onItemRightClick(world, entity, hand);
 			ItemStack itemstack = ar.getResult();
-			int x = (int) entity.getPosX();
-			int y = (int) entity.getPosY();
-			int z = (int) entity.getPosZ();
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
@@ -103,7 +105,7 @@ public class BemboFeatherItem extends SoulinmodModElements.ModElement {
 			int z = pos.getZ();
 			ItemStack itemstack = context.getItem();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);

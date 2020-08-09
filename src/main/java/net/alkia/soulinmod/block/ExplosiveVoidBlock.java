@@ -31,7 +31,9 @@ import net.alkia.soulinmod.procedures.ExplosiveVoidBlockDestroyedByExplosionProc
 import net.alkia.soulinmod.itemgroup.SoulItemsItemGroup;
 import net.alkia.soulinmod.SoulinmodModElements;
 
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 import java.util.Collections;
 
 @SoulinmodModElements.ModElement.Tag
@@ -83,7 +85,7 @@ public class ExplosiveVoidBlock extends SoulinmodModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
@@ -101,7 +103,7 @@ public class ExplosiveVoidBlock extends SoulinmodModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);

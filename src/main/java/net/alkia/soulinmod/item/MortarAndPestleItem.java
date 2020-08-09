@@ -40,7 +40,7 @@ public class MortarAndPestleItem extends SoulinmodModElements.ModElement {
 		}
 
 		@Override
-		public ItemStack getContainerItem(ItemStack itemStack) {
+		public ItemStack getContainerItem(ItemStack itemstack) {
 			return new ItemStack(this);
 		}
 

@@ -37,7 +37,9 @@ import net.alkia.soulinmod.itemgroup.SoulItemsItemGroup;
 import net.alkia.soulinmod.SoulinmodModElements;
 
 import java.util.Random;
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 import java.util.Collections;
 
 @SoulinmodModElements.ModElement.Tag
@@ -98,14 +100,11 @@ public class SpookyblockBlock extends SoulinmodModElements.ModElement {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			int i = x;
-			int j = y;
-			int k = z;
 			if (true)
 				for (int l = 0; l < 4; ++l) {
-					double d0 = (i + random.nextFloat());
-					double d1 = (j + random.nextFloat());
-					double d2 = (k + random.nextFloat());
+					double d0 = (x + random.nextFloat());
+					double d1 = (y + random.nextFloat());
+					double d2 = (z + random.nextFloat());
 					int i1 = random.nextInt(2) * 2 - 1;
 					double d3 = (random.nextFloat() - 0.5D) * 0.5D;
 					double d4 = (random.nextFloat() - 0.5D) * 0.5D;
@@ -121,7 +120,7 @@ public class SpookyblockBlock extends SoulinmodModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				SpookyblockPlayerStartsToDestroyProcedure.executeProcedure($_dependencies);
 			}
@@ -135,7 +134,7 @@ public class SpookyblockBlock extends SoulinmodModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				SpookyblockPlayerStartsToDestroyProcedure.executeProcedure($_dependencies);
 			}
@@ -148,7 +147,7 @@ public class SpookyblockBlock extends SoulinmodModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				SpookyblockPlayerStartsToDestroyProcedure.executeProcedure($_dependencies);
 			}
@@ -161,7 +160,7 @@ public class SpookyblockBlock extends SoulinmodModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				SpookyblockPlayerStartsToDestroyProcedure.executeProcedure($_dependencies);
 			}
@@ -176,7 +175,7 @@ public class SpookyblockBlock extends SoulinmodModElements.ModElement {
 			int z = pos.getZ();
 			Direction direction = hit.getFace();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				SpookyblockPlayerStartsToDestroyProcedure.executeProcedure($_dependencies);
 			}

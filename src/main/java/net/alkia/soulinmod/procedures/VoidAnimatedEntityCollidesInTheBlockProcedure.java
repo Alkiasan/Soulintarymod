@@ -7,13 +7,15 @@ import net.minecraft.entity.Entity;
 
 import net.alkia.soulinmod.SoulinmodModElements;
 
+import java.util.Map;
+
 @SoulinmodModElements.ModElement.Tag
 public class VoidAnimatedEntityCollidesInTheBlockProcedure extends SoulinmodModElements.ModElement {
 	public VoidAnimatedEntityCollidesInTheBlockProcedure(SoulinmodModElements instance) {
 		super(instance, 81);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			System.err.println("Failed to load dependency entity for procedure VoidAnimatedEntityCollidesInTheBlock!");
 			return;

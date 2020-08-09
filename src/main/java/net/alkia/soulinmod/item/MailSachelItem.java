@@ -74,9 +74,9 @@ public class MailSachelItem extends SoulinmodModElements.ModElement {
 		public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
 			ActionResult<ItemStack> ar = super.onItemRightClick(world, entity, hand);
 			ItemStack itemstack = ar.getResult();
-			int x = (int) entity.getPosX();
-			int y = (int) entity.getPosY();
-			int z = (int) entity.getPosZ();
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
 			if (entity instanceof ServerPlayerEntity) {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
@@ -102,6 +102,23 @@ public class MailSachelItem extends SoulinmodModElements.ModElement {
 		@Override
 		public ICapabilityProvider initCapabilities(ItemStack stack, @Nullable CompoundNBT compound) {
 			return new InventoryCapability();
+		}
+
+		@Override
+		public CompoundNBT getShareTag(ItemStack stack) {
+			CompoundNBT nbt = super.getShareTag(stack);
+			if (nbt != null)
+				stack.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+						.ifPresent(capability -> nbt.put("Inventory", ((ItemStackHandler) capability).serializeNBT()));
+			return nbt;
+		}
+
+		@Override
+		public void readShareTag(ItemStack stack, @Nullable CompoundNBT nbt) {
+			super.readShareTag(stack, nbt);
+			if (nbt != null)
+				stack.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+						.ifPresent(capability -> ((ItemStackHandler) capability).deserializeNBT((CompoundNBT) nbt.get("Inventory")));
 		}
 	}
 

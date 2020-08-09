@@ -14,6 +14,9 @@ import net.alkia.soulinmod.procedures.NectarBottleDrankProcedure;
 import net.alkia.soulinmod.itemgroup.SoulItemsItemGroup;
 import net.alkia.soulinmod.SoulinmodModElements;
 
+import java.util.Map;
+import java.util.HashMap;
+
 @SoulinmodModElements.ModElement.Tag
 public class GlowingNectarFoodItem extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:glowing_nectar_food")
@@ -44,13 +47,18 @@ public class GlowingNectarFoodItem extends SoulinmodModElements.ModElement {
 		}
 
 		@Override
+		public net.minecraft.util.SoundEvent getEatSound() {
+			return net.minecraft.util.SoundEvents.ENTITY_GENERIC_DRINK;
+		}
+
+		@Override
 		public ItemStack onItemUseFinish(ItemStack itemStack, World world, LivingEntity entity) {
 			ItemStack retval = super.onItemUseFinish(itemStack, world, entity);
-			int x = (int) entity.getPosX();
-			int y = (int) entity.getPosY();
-			int z = (int) entity.getPosZ();
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				NectarBottleDrankProcedure.executeProcedure($_dependencies);
 			}

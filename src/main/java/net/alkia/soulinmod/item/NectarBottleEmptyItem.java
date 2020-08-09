@@ -17,6 +17,9 @@ import net.alkia.soulinmod.procedures.NectarBottlefillProcedure;
 import net.alkia.soulinmod.itemgroup.SoulItemsItemGroup;
 import net.alkia.soulinmod.SoulinmodModElements;
 
+import java.util.Map;
+import java.util.HashMap;
+
 @SoulinmodModElements.ModElement.Tag
 public class NectarBottleEmptyItem extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:nectar_bottle_empty")
@@ -62,7 +65,7 @@ public class NectarBottleEmptyItem extends SoulinmodModElements.ModElement {
 			int z = pos.getZ();
 			ItemStack itemstack = context.getItem();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);

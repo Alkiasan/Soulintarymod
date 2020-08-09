@@ -1,5 +1,5 @@
 {
-  "_fv": 8,
+  "_fv": 10,
   "_type": "biome",
   "definition": {
     "groundBlock": {
@@ -25,7 +25,6 @@
     "treeFruits": {
       "value": ""
     },
-    "customColors": true,
     "airColor": {
       "value": -5916161,
       "falpha": 0.0
@@ -59,57 +58,159 @@
       "value": "No parent"
     },
     "biomeDictionaryTypes": [],
-    "spawnList": [
+    "spawnEntries": [
       {
-        "value": "EntityAnimal"
+        "entity": {
+          "value": "EntityAnimal"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
       },
       {
-        "value": "EntityChicken"
+        "entity": {
+          "value": "EntityChicken"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
       },
       {
-        "value": "EntityCod"
+        "entity": {
+          "value": "EntityCod"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
       },
       {
-        "value": "EntityCow"
+        "entity": {
+          "value": "EntityCow"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
       },
       {
-        "value": "EntityDonkey"
+        "entity": {
+          "value": "EntityDonkey"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
       },
       {
-        "value": "EntityDolphin"
+        "entity": {
+          "value": "EntityDolphin"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
       },
       {
-        "value": "EntityFox"
+        "entity": {
+          "value": "EntityFox"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
       },
       {
-        "value": "EntityLlama"
+        "entity": {
+          "value": "EntityLlama"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
       },
       {
-        "value": "EntityParrot"
+        "entity": {
+          "value": "EntityParrot"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
       },
       {
-        "value": "EntityPig"
+        "entity": {
+          "value": "EntityPig"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
       },
       {
-        "value": "EntityRabbit"
+        "entity": {
+          "value": "EntityRabbit"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
       },
       {
-        "value": "EntitySalmon"
+        "entity": {
+          "value": "EntitySalmon"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
       },
       {
-        "value": "EntitySheep"
+        "entity": {
+          "value": "EntitySheep"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
       },
       {
-        "value": "EntitySquid"
+        "entity": {
+          "value": "EntitySquid"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
       },
       {
-        "value": "EntityTropicalFish"
+        "entity": {
+          "value": "EntityTropicalFish"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
       },
       {
-        "value": "EntityTurtle"
+        "entity": {
+          "value": "EntityTurtle"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
       },
       {
-        "value": "EntityWolf"
+        "entity": {
+          "value": "EntityWolf"
+        },
+        "minGroup": 1,
+        "maxGroup": 15,
+        "weight": 15,
+        "spawnType": "creature"
       }
     ]
   }
