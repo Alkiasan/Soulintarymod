@@ -49,7 +49,7 @@ public class AntiVoidBlock extends SoulinmodModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.SNOW).hardnessAndResistance(2f, 50f).lightValue(11).harvestLevel(1)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.SNOW).hardnessAndResistance(2f, 50f).lightValue(15).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("anti_void");
 		}
@@ -62,6 +62,11 @@ public class AntiVoidBlock extends SoulinmodModElements.ModElement {
 			list.add(new StringTextComponent("feel it at all. You feel the weight on your arms yet"));
 			list.add(new StringTextComponent("feel nothing in your hands. It is extremely warm"));
 			list.add(new StringTextComponent("to the touch."));
+		}
+
+		@Override
+		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
+			return true;
 		}
 
 		@Override

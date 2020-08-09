@@ -48,7 +48,7 @@ public class AntiVoidSlabBlock extends SoulinmodModElements.ModElement {
 	}
 	public static class CustomBlock extends SlabBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.SNOW).hardnessAndResistance(2f, 50f).lightValue(11).harvestLevel(1)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.SNOW).hardnessAndResistance(2f, 50f).lightValue(15).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("anti_void_slab");
 		}

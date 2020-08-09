@@ -34,7 +34,7 @@ public class NectarBottleEmptyItem extends SoulinmodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(SoulItemsItemGroup.tab).maxStackSize(64));
+			super(new Item.Properties().group(SoulItemsItemGroup.tab).maxStackSize(16));
 			setRegistryName("nectar_bottle_empty");
 		}
 

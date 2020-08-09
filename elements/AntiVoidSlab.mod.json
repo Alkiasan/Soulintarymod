@@ -46,7 +46,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "GRASS"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -66,7 +66,7 @@
     "soundOnStep": {
       "value": "SNOW"
     },
-    "luminance": 0.7,
+    "luminance": 1.0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "spawnParticles": false,

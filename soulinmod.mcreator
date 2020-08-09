@@ -989,6 +989,155 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nectar_block_placeholder"
+    },
+    {
+      "name": "GlowingNectarFood",
+      "type": "food",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowing_nectar_food"
+    },
+    {
+      "name": "VialNectarRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vial_nectar_recipe"
+    },
+    {
+      "name": "RocketSwordToolInHandTick",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rocket_sword_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StarChunk",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "star_chunk"
+    },
+    {
+      "name": "RocketSword",
+      "type": "tool",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rocket_sword"
+    },
+    {
+      "name": "FlowerCrown",
+      "type": "armor",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_crown",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "NectarBottleFood",
+      "type": "food",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nectar_bottle_food"
+    },
+    {
+      "name": "LilyOrganicStep",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lily_organic_step"
+    },
+    {
+      "name": "NectarBottleDrank",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nectar_bottle_drank",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LilyOrganicStepItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lily_organic_step_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlowingNectarDranks",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowing_nectar_dranks",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1059,6 +1208,7 @@
   "language_map": {
     "en_us": {
       "item.soulinmod.glowing_nectar_bucket": "GlowingNectar Bucket",
+      "item.soulinmod.flower_crownboots": "Flower Crown Boots",
       "block.soulinmod.crystalized_void": "Crystalized Void",
       "block.soulinmod.rainy_window_no_border": "Rainy Window Border",
       "block.soulinmod.spookyblock": "Spookyblock",
@@ -1092,6 +1242,7 @@
       "item.soulinmod.bucketemptynectar": "Bucketemptynectar",
       "block.soulinmod.black_block": "Black Block",
       "block.soulinmod.rainy_window_border": "Rainy Window Border",
+      "item.soulinmod.flower_crownlegs": "Flower Crown Leggings",
       "item.soulinmod.glitter_and_gold.desc": "Barns Courtney - Glitter And Gold",
       "item.soulinmod.brown_dye_edible": "Brown Dye (edible)",
       "item.soulinmod.anti_void_clump": "Anti Void Clump",
@@ -1104,6 +1255,7 @@
       "block.soulinmod.explosive_void": "Explosive Void",
       "item.soulinmod.mail_sachel": "Mail Sachel",
       "item.soulinmod.cyan_dye_edible": "Cyan Dye (edible)",
+      "item.soulinmod.flower_crownbody": "Flower Crown Body",
       "item.soulinmod.green_dye_edible": "Green Dye (edible)",
       "item.soulinmod.yellow_dye_edible": "Yellow Dye (edible)",
       "item.soulinmod.light_gray_dye_edible": "Light Gray Dye (edible)",
@@ -1114,6 +1266,7 @@
       "item.soulinmod.glitter_and_gold": "Glitter And Gold",
       "item.soulinmod.light_blue_dye_edible": "Light Blue Dye (edible)",
       "item.soulinmod.void_essense": "Void Essense",
+      "item.soulinmod.flower_crownhelmet": "Flower Crown",
       "item.soulinmod.magenta_dye_edible": "Magenta Dye (edible)",
       "item.soulinmod.nectar_bucket": "Nectar Bucket",
       "item.soulinmod.orange_dye_edible": "Orange Dye (edible)",
@@ -1136,5 +1289,5 @@
     "modElementsPackage": "net.alkia.soulinmod",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000432115
+  "mcreatorVersion": 202000322116
 }

@@ -42,7 +42,7 @@ public class CrystalizedVoidBlock extends SoulinmodModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GLASS).hardnessAndResistance(1.6f, 6f).lightValue(11).harvestLevel(1)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.GLASS).hardnessAndResistance(1.6f, 6f).lightValue(15).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("crystalized_void");
 		}
