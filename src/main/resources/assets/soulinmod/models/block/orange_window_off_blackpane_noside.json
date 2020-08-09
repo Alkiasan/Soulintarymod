@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_glass_pane_noside",
+  "textures": {
+    "pane": "soulinmod:blocks/orange_windowv1_black_off"
+  }
+}

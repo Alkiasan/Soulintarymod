@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soulinmod:blocks/orange_windowv2_black",
+    "up": "soulinmod:blocks/orange_windowv2_black",
+    "north": "soulinmod:blocks/orange_windowv2_black",
+    "east": "soulinmod:blocks/orange_windowv2_black",
+    "south": "soulinmod:blocks/orange_windowv2_black",
+    "west": "soulinmod:blocks/orange_windowv2_black",
+    "particle": "soulinmod:blocks/orange_windowv2_black"
+  }
+}

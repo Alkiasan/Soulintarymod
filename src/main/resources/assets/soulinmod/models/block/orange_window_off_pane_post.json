@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_post",
+  "textures": {
+    "edge": "soulinmod:blocks/orange_windownb_off",
+    "pane": "soulinmod:blocks/orange_windownb_off"
+  }
+}
