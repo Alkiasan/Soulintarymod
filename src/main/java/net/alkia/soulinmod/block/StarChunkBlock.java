@@ -1,15 +1,41 @@
 
 package net.alkia.soulinmod.block;
 
+import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.world.World;
+import net.minecraft.world.IWorldReader;
+import net.minecraft.world.IBlockReader;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.particles.ParticleTypes;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.BlockItem;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.Minecraft;
+import net.minecraft.block.material.MaterialColor;
+import net.minecraft.block.material.Material;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Block;
+
+import net.alkia.soulinmod.itemgroup.SoulItemsItemGroup;
+import net.alkia.soulinmod.SoulinmodModElements;
+
+import java.util.Random;
+import java.util.List;
+import java.util.Collections;
+
 @SoulinmodModElements.ModElement.Tag
 public class StarChunkBlock extends SoulinmodModElements.ModElement {
-
 	@ObjectHolder("soulinmod:star_chunk")
 	public static final Block block = null;
-
 	public StarChunkBlock(SoulinmodModElements instance) {
 		super(instance, 99);
-
 	}
 
 	@Override
@@ -17,15 +43,10 @@ public class StarChunkBlock extends SoulinmodModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(SoulItemsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
-
 	public static class CustomBlock extends Block {
-
 		public CustomBlock() {
-			super(
-
-					Block.Properties.create(Material.ROCK).sound(SoundType.GLASS).hardnessAndResistance(1f, 10f).lightValue(15).harvestLevel(1)
-							.harvestTool(ToolType.PICKAXE));
-
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.GLASS).hardnessAndResistance(1f, 10f).lightValue(15).harvestLevel(1)
+					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("star_chunk");
 		}
 
@@ -46,7 +67,6 @@ public class StarChunkBlock extends SoulinmodModElements.ModElement {
 
 		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
@@ -73,7 +93,5 @@ public class StarChunkBlock extends SoulinmodModElements.ModElement {
 					world.addParticle(ParticleTypes.FIREWORK, d0, d1, d2, d3, d4, d5);
 				}
 		}
-
 	}
-
 }

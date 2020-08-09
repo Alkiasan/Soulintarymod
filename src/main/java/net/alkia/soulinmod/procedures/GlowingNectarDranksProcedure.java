@@ -1,11 +1,23 @@
 package net.alkia.soulinmod.procedures;
 
+import net.minecraftforge.items.ItemHandlerHelper;
+
+import net.minecraft.potion.Effects;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
+
+import net.alkia.soulinmod.item.NectarBottleEmptyItem;
+import net.alkia.soulinmod.SoulinmodModElements;
+
+import java.util.Map;
+
 @SoulinmodModElements.ModElement.Tag
 public class GlowingNectarDranksProcedure extends SoulinmodModElements.ModElement {
-
 	public GlowingNectarDranksProcedure(SoulinmodModElements instance) {
 		super(instance, 96);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -13,9 +25,7 @@ public class GlowingNectarDranksProcedure extends SoulinmodModElements.ModElemen
 			System.err.println("Failed to load dependency entity for procedure GlowingNectarDranks!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
-
 		if (entity instanceof LivingEntity)
 			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 600, (int) 4));
 		if (entity instanceof PlayerEntity) {
@@ -23,7 +33,5 @@ public class GlowingNectarDranksProcedure extends SoulinmodModElements.ModElemen
 			_setstack.setCount((int) 1);
 			ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 		}
-
 	}
-
 }

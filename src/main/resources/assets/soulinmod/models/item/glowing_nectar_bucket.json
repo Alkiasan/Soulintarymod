@@ -1,6 +1,6 @@
 {
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "soulinmod:items/blue_nectar_bucket"
-  }
+  "parent": "forge:item/bucket_drip",
+  "loader": "forge:bucket",
+  "fluid": "soulinmod:glowing_nectar",
+  "transform": "forge:default-item"
 }

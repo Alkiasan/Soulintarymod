@@ -1,11 +1,21 @@
 package net.alkia.soulinmod.procedures;
 
+import net.minecraft.potion.Effects;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.item.Items;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
+
+import net.alkia.soulinmod.SoulinmodModElements;
+
+import java.util.Map;
+
 @SoulinmodModElements.ModElement.Tag
 public class RocketSwordToolInHandTickProcedure extends SoulinmodModElements.ModElement {
-
 	public RocketSwordToolInHandTickProcedure(SoulinmodModElements instance) {
 		super(instance, 102);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -13,9 +23,7 @@ public class RocketSwordToolInHandTickProcedure extends SoulinmodModElements.Mod
 			System.err.println("Failed to load dependency entity for procedure RocketSwordToolInHandTick!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
-
 		if (((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get(3) : ItemStack.EMPTY)
 				.getItem() == new ItemStack(Items.IRON_HELMET, (int) (1)).getItem()) == (false))) {
 			if (((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get(2) : ItemStack.EMPTY)
@@ -30,7 +38,5 @@ public class RocketSwordToolInHandTickProcedure extends SoulinmodModElements.Mod
 				}
 			}
 		}
-
 	}
-
 }
