@@ -23,14 +23,17 @@ import net.minecraft.block.Block;
 import net.alkia.soulinmod.procedures.GlowingNectarMobplayerCollidesBlockProcedure;
 import net.alkia.soulinmod.SoulinmodModElements;
 
+import java.util.Map;
+import java.util.HashMap;
+
 @SoulinmodModElements.ModElement.Tag
 public class GlowingNectarBlock extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:glowing_nectar")
 	public static final FlowingFluidBlock block = null;
 	@ObjectHolder("soulinmod:glowing_nectar_bucket")
 	public static final Item bucket = null;
-	private FlowingFluid flowing = null;
-	private FlowingFluid still = null;
+	public static FlowingFluid flowing = null;
+	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public GlowingNectarBlock(SoulinmodModElements instance) {
 		super(instance, 33);
@@ -58,7 +61,7 @@ public class GlowingNectarBlock extends SoulinmodModElements.ModElement {
 				int y = pos.getY();
 				int z = pos.getZ();
 				{
-					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
 					GlowingNectarMobplayerCollidesBlockProcedure.executeProcedure($_dependencies);
 				}

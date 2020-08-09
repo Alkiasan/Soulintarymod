@@ -2,7 +2,7 @@ package net.alkia.soulinmod.procedures;
 
 import net.minecraftforge.items.ItemHandlerHelper;
 
-import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.PlayerEntity;
@@ -14,13 +14,15 @@ import net.alkia.soulinmod.item.NectarBottleEmptyItem;
 import net.alkia.soulinmod.block.NectarBlock;
 import net.alkia.soulinmod.SoulinmodModElements;
 
+import java.util.Map;
+
 @SoulinmodModElements.ModElement.Tag
 public class NectarBottlefillProcedure extends SoulinmodModElements.ModElement {
 	public NectarBottlefillProcedure(SoulinmodModElements instance) {
 		super(instance, 89);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			System.err.println("Failed to load dependency entity for procedure NectarBottlefill!");
 			return;
@@ -42,10 +44,10 @@ public class NectarBottlefillProcedure extends SoulinmodModElements.ModElement {
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		int x = (int) dependencies.get("x");
-		int y = (int) dependencies.get("y");
-		int z = (int) dependencies.get("z");
-		World world = (World) dependencies.get("world");
+		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
+		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
+		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
+		IWorld world = (IWorld) dependencies.get("world");
 		if (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == NectarBlock.block.getDefaultState().getBlock())) {
 			if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
 					.getItem() == new ItemStack(NectarBottleEmptyItem.block, (int) (1)).getItem())) {

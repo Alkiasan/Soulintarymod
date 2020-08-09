@@ -3,6 +3,8 @@ package net.alkia.soulinmod.world.biome;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
@@ -16,6 +18,7 @@ import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.block.Blocks;
 
 import net.alkia.soulinmod.SoulinmodModElements;
@@ -39,7 +42,7 @@ public class ProtectedBiomeBiome extends SoulinmodModElements.ModElement {
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
 			super(new Biome.Builder().downfall(0.5f).depth(0.1f).scale(0.2f).temperature(0.5f).precipitation(Biome.RainType.RAIN)
-					.category(Biome.Category.FOREST).waterColor(4159204).waterFogColor(329011)
+					.category(Biome.Category.FOREST).waterColor(-12687423).waterFogColor(-12687423)
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
 							Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState())));
 			setRegistryName("protected_biome");
@@ -58,6 +61,24 @@ public class ProtectedBiomeBiome extends SoulinmodModElements.ModElement {
 									new IFeatureConfig[]{IFeatureConfig.NO_FEATURE_CONFIG, IFeatureConfig.NO_FEATURE_CONFIG}, new float[]{0.2F, 0.1F},
 									Feature.NORMAL_TREE, IFeatureConfig.NO_FEATURE_CONFIG),
 							Placement.COUNT_EXTRA_HEIGHTMAP, new AtSurfaceWithExtraConfig(3, 0.1F, 1)));
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public int getGrassColor(BlockPos pos) {
+			return -14699451;
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public int getFoliageColor(BlockPos pos) {
+			return -14699451;
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public int getSkyColorByTemp(float currentTemperature) {
+			return -5916161;
 		}
 	}
 }

@@ -26,14 +26,17 @@ import net.alkia.soulinmod.procedures.NectarMobplayerCollidesBlockProcedure;
 import net.alkia.soulinmod.itemgroup.SoulItemsItemGroup;
 import net.alkia.soulinmod.SoulinmodModElements;
 
+import java.util.Map;
+import java.util.HashMap;
+
 @SoulinmodModElements.ModElement.Tag
 public class NectarBlock extends SoulinmodModElements.ModElement {
 	@ObjectHolder("soulinmod:nectar")
 	public static final FlowingFluidBlock block = null;
 	@ObjectHolder("soulinmod:nectar_bucket")
 	public static final Item bucket = null;
-	private FlowingFluid flowing = null;
-	private FlowingFluid still = null;
+	public static FlowingFluid flowing = null;
+	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public NectarBlock(SoulinmodModElements instance) {
 		super(instance, 32);
@@ -62,7 +65,7 @@ public class NectarBlock extends SoulinmodModElements.ModElement {
 				int y = pos.getY();
 				int z = pos.getZ();
 				{
-					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
 					NectarMobplayerCollidesBlockProcedure.executeProcedure($_dependencies);
 				}

@@ -22,7 +22,9 @@ import net.alkia.soulinmod.procedures.NectarBucketPlaceProcedure;
 import net.alkia.soulinmod.itemgroup.SoulItemsItemGroup;
 import net.alkia.soulinmod.SoulinmodModElements;
 
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 
 @SoulinmodModElements.ModElement.Tag
 public class NectarBucketItem extends SoulinmodModElements.ModElement {
@@ -81,7 +83,7 @@ public class NectarBucketItem extends SoulinmodModElements.ModElement {
 			int z = pos.getZ();
 			ItemStack itemstack = context.getItem();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
