@@ -12,18 +12,17 @@ import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.FrequencyConfig;
 import net.minecraft.world.gen.placement.AtSurfaceWithExtraConfig;
 import net.minecraft.world.gen.feature.MultipleRandomFeatureConfig;
-import net.minecraft.world.gen.feature.IFeatureConfig;
-import net.minecraft.world.gen.feature.GrassFeatureConfig;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.Biome;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
 
 import net.alkia.soulinmod.SoulinmodModElements;
+
+import com.google.common.collect.ImmutableList;
 
 @SoulinmodModElements.ModElement.Tag
 public class SpecimenBiome extends SoulinmodModElements.ModElement {
@@ -53,15 +52,16 @@ public class SpecimenBiome extends SoulinmodModElements.ModElement {
 			DefaultBiomeFeatures.addMonsterRooms(this);
 			DefaultBiomeFeatures.addOres(this);
 			DefaultBiomeFeatures.addLakes(this);
-			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Biome.createDecoratedFeature(Feature.DEFAULT_FLOWER,
-					IFeatureConfig.NO_FEATURE_CONFIG, Placement.COUNT_HEIGHTMAP_32, new FrequencyConfig(7)));
-			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Biome.createDecoratedFeature(Feature.GRASS,
-					new GrassFeatureConfig(Blocks.GRASS.getDefaultState()), Placement.COUNT_HEIGHTMAP_DOUBLE, new FrequencyConfig(7)));
+			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.FLOWER.withConfiguration(DefaultBiomeFeatures.DEFAULT_FLOWER_CONFIG)
+					.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(7))));
+			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.RANDOM_PATCH.withConfiguration(DefaultBiomeFeatures.GRASS_CONFIG)
+					.withPlacement(Placement.COUNT_HEIGHTMAP_DOUBLE.configure(new FrequencyConfig(7))));
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
-					Biome.createDecoratedFeature(Feature.RANDOM_SELECTOR,
-							new MultipleRandomFeatureConfig(new Feature[]{Feature.FANCY_TREE}, new IFeatureConfig[]{IFeatureConfig.NO_FEATURE_CONFIG},
-									new float[]{0.1F}, Feature.NORMAL_TREE, IFeatureConfig.NO_FEATURE_CONFIG),
-							Placement.COUNT_EXTRA_HEIGHTMAP, new AtSurfaceWithExtraConfig(3, 0.1F, 1)));
+					Feature.RANDOM_SELECTOR
+							.withConfiguration(new MultipleRandomFeatureConfig(
+									ImmutableList.of(Feature.FANCY_TREE.withConfiguration(DefaultBiomeFeatures.FANCY_TREE_CONFIG).withChance(0.1F)),
+									Feature.NORMAL_TREE.withConfiguration(DefaultBiomeFeatures.JUNGLE_TREE_CONFIG)))
+							.withPlacement(Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(3, 0.1F, 1))));
 			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.ZOMBIE, 15, 1, 15));
 			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.CHICKEN, 15, 1, 15));
 			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.COD, 15, 1, 15));
@@ -83,19 +83,19 @@ public class SpecimenBiome extends SoulinmodModElements.ModElement {
 
 		@OnlyIn(Dist.CLIENT)
 		@Override
-		public int getGrassColor(BlockPos pos) {
+		public int getGrassColor(double posX, double posZ) {
 			return -11423895;
 		}
 
 		@OnlyIn(Dist.CLIENT)
 		@Override
-		public int getFoliageColor(BlockPos pos) {
+		public int getFoliageColor() {
 			return -11423895;
 		}
 
 		@OnlyIn(Dist.CLIENT)
 		@Override
-		public int getSkyColorByTemp(float currentTemperature) {
+		public int getSkyColor() {
 			return -5916161;
 		}
 	}

@@ -10,9 +10,12 @@ import net.minecraftforge.forgespi.language.ModFileScanData;
 import net.minecraftforge.fml.network.NetworkEvent;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.biome.Biome;
 import net.minecraft.util.ResourceLocation;
@@ -45,8 +48,6 @@ public class SoulinmodModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public SoulinmodModElements() {
-		sounds.put(new ResourceLocation("soulinmod", "darkmattermusic"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("soulinmod", "darkmattermusic")));
 		sounds.put(new ResourceLocation("soulinmod", "glitterandgold"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("soulinmod", "glitterandgold")));
 		sounds.put(new ResourceLocation("soulinmod", "memoryofthelost"),
@@ -62,6 +63,8 @@ public class SoulinmodModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("soulinmod", "bravenewworld")));
 		sounds.put(new ResourceLocation("soulinmod", "whoseesyou"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("soulinmod", "whoseesyou")));
+		sounds.put(new ResourceLocation("soulinmod", "darkmattermusic"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("soulinmod", "darkmattermusic")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("soulinmod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
@@ -132,6 +135,10 @@ public class SoulinmodModElements {
 		}
 
 		public void serverLoad(FMLServerStartingEvent event) {
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		public void clientLoad(FMLClientSetupEvent event) {
 		}
 
 		@Override

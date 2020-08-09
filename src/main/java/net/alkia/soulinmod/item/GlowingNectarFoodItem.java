@@ -47,11 +47,16 @@ public class GlowingNectarFoodItem extends SoulinmodModElements.ModElement {
 		}
 
 		@Override
+		public net.minecraft.util.SoundEvent getEatSound() {
+			return net.minecraft.util.SoundEvents.ENTITY_GENERIC_DRINK;
+		}
+
+		@Override
 		public ItemStack onItemUseFinish(ItemStack itemStack, World world, LivingEntity entity) {
 			ItemStack retval = super.onItemUseFinish(itemStack, world, entity);
-			double x = entity.posX;
-			double y = entity.posY;
-			double z = entity.posZ;
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);

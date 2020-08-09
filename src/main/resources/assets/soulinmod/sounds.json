@@ -1,13 +1,4 @@
 {
-  "darkmattermusic": {
-    "category": "record",
-    "sounds": [
-      {
-        "name": "soulinmod:les_friction_-_dark_matter",
-        "stream": true
-      }
-    ]
-  },
   "glitterandgold": {
     "category": "record",
     "sounds": [
@@ -94,6 +85,15 @@
     "sounds": [
       {
         "name": "soulinmod:who_sees_you",
+        "stream": true
+      }
+    ]
+  },
+  "darkmattermusic": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soulinmod:les_friction_-_dark_matter",
         "stream": true
       }
     ]

@@ -786,39 +786,6 @@
       "registry_name": "clump_to_block"
     },
     {
-      "name": "NectarBucketPlace",
-      "type": "procedure",
-      "sortid": 84,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "nectar_bucket_place",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "VoidAnimatedEntityCollidesInTheBlock",
       "type": "procedure",
       "sortid": 81,
@@ -869,15 +836,6 @@
       }
     },
     {
-      "name": "Bucketemptynectar",
-      "type": "item",
-      "sortid": 87,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bucketemptynectar"
-    },
-    {
       "name": "Badapple",
       "type": "musicdisc",
       "sortid": 91,
@@ -922,39 +880,6 @@
       "registry_name": "nectar_bottle_empty"
     },
     {
-      "name": "NectarBucketFill",
-      "type": "procedure",
-      "sortid": 85,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "nectar_bucket_fill",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "GlowingNectarPlacable",
       "type": "block",
       "sortid": 90,
@@ -962,15 +887,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "glowing_nectar_placable"
-    },
-    {
-      "name": "NectarBucket",
-      "type": "item",
-      "sortid": 84,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "nectar_bucket_full"
     },
     {
       "name": "MortarPestleRecipe",
@@ -1138,6 +1054,582 @@
           }
         ]
       }
+    },
+    {
+      "name": "BlueWindow1",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_window_1"
+    },
+    {
+      "name": "BlueWindow1Pane",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_window_1_pane"
+    },
+    {
+      "name": "BlueWindow2",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_window_2"
+    },
+    {
+      "name": "BlueWindow3",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_window_3"
+    },
+    {
+      "name": "BlueWindowOff",
+      "type": "block",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_window_off"
+    },
+    {
+      "name": "BlueWindowOffPane",
+      "type": "block",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_window_off_pane"
+    },
+    {
+      "name": "BlueWIndowOff2",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_w_indow_off_2"
+    },
+    {
+      "name": "BlueWindowOff2Pane",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_window_off_2_pane"
+    },
+    {
+      "name": "BlueWindow3White",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_window_3_white"
+    },
+    {
+      "name": "BlueWindow3WhitePane",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_window_3_white_pane"
+    },
+    {
+      "name": "ClearBlueWindow3Black",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_blue_window_3_black"
+    },
+    {
+      "name": "ClearBlueWindow3BlackPane",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_blue_window_3_black_pane"
+    },
+    {
+      "name": "SquareBlueWindowOffBlack",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "square_blue_window_off_black"
+    },
+    {
+      "name": "SquareBlueWindowOffBlackPane",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "square_blue_window_off_black_pane"
+    },
+    {
+      "name": "SquareBlueWindowOffWhite",
+      "type": "block",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "square_blue_window_off_white"
+    },
+    {
+      "name": "SquareBlueWindowOffWhitePane",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "square_blue_window_off_white_pane"
+    },
+    {
+      "name": "FancyBlueWindow",
+      "type": "block",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fancy_blue_window"
+    },
+    {
+      "name": "FancyBlueWindowPane",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fancy_blue_window_pane"
+    },
+    {
+      "name": "FancyBlueWindowBlack",
+      "type": "block",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fancy_blue_window_black"
+    },
+    {
+      "name": "FancyBlueWindowBlackPane",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fancy_blue_window_black_pane"
+    },
+    {
+      "name": "FancyBlueWindowOff",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fancy_blue_window_off"
+    },
+    {
+      "name": "FancyBlueWindowOffPane",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fancy_blue_window_off_pane"
+    },
+    {
+      "name": "FancyBlueWindowOffWhite",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fancy_blue_window_off_white"
+    },
+    {
+      "name": "FancyBlueWIndowOffPaneWhite",
+      "type": "block",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fancy_blue_w_indow_off_pane_white"
+    },
+    {
+      "name": "OrangeWindow1",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_window_1"
+    },
+    {
+      "name": "OrangeWindow1Pane",
+      "type": "block",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_window_1_pane"
+    },
+    {
+      "name": "OrangeWindow2",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_window_2"
+    },
+    {
+      "name": "OrangeWindow2Pane",
+      "type": "block",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_window_2_pane"
+    },
+    {
+      "name": "OrangeWindowOff1",
+      "type": "block",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_window_off_1"
+    },
+    {
+      "name": "OrangeWindowOffPane",
+      "type": "block",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_window_off_pane"
+    },
+    {
+      "name": "OrangeWindowOff2",
+      "type": "block",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_window_off_2"
+    },
+    {
+      "name": "OrangeWindowOff2Pane",
+      "type": "block",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_window_off_2_pane"
+    },
+    {
+      "name": "OrangeWindow3White",
+      "type": "block",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_window_3_white"
+    },
+    {
+      "name": "OrangeWindow3WhitePane",
+      "type": "block",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_window_3_white_pane"
+    },
+    {
+      "name": "OrangeWindow3Black",
+      "type": "block",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_window_3_black"
+    },
+    {
+      "name": "OrangeWindow3BlackPane",
+      "type": "block",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_window_3_black_pane"
+    },
+    {
+      "name": "OrangeWindowOffBlack",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_window_off_black"
+    },
+    {
+      "name": "OrangeWindowOffBlackpane",
+      "type": "block",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_window_off_blackpane"
+    },
+    {
+      "name": "OrangeWindowoff2White",
+      "type": "block",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_windowoff_2_white"
+    },
+    {
+      "name": "OrangeWindowOff2WhitePane",
+      "type": "block",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_window_off_2_white_pane"
+    },
+    {
+      "name": "FancyOrangeWindowWhite",
+      "type": "block",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fancy_orange_window_white"
+    },
+    {
+      "name": "FancyOrangeWindowPane",
+      "type": "block",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fancy_orange_window_pane"
+    },
+    {
+      "name": "FancyOrangeWindowBlack",
+      "type": "block",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fancy_orange_window_black"
+    },
+    {
+      "name": "FancyOrangePaneB",
+      "type": "block",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fancy_orange_pane_b"
+    },
+    {
+      "name": "FancyOrangeOff",
+      "type": "block",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fancy_orange_off"
+    },
+    {
+      "name": "FOOP",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "foop"
+    },
+    {
+      "name": "FOOW",
+      "type": "block",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "foow"
+    },
+    {
+      "name": "FOOWP",
+      "type": "block",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "foowp"
+    },
+    {
+      "name": "Amulet",
+      "type": "item",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amulet"
+    },
+    {
+      "name": "GlowingAmulet",
+      "type": "item",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowing_amulet"
+    },
+    {
+      "name": "CrackedAmulet",
+      "type": "item",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cracked_amulet"
+    },
+    {
+      "name": "BloodyAmulet",
+      "type": "item",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloody_amulet"
+    },
+    {
+      "name": "CorruptedAmulet",
+      "type": "item",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrupted_amulet"
+    },
+    {
+      "name": "CinnamonDrink",
+      "type": "food",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cinnamon_drink"
+    },
+    {
+      "name": "CrimsonTea",
+      "type": "food",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_tea"
+    },
+    {
+      "name": "BucketOfBlood",
+      "type": "item",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bucket_of_blood"
+    },
+    {
+      "name": "FancyKeycard",
+      "type": "item",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fancy_keycard"
+    },
+    {
+      "name": "BlackKeycard",
+      "type": "item",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_keycard"
+    },
+    {
+      "name": "BlueEnergy",
+      "type": "item",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_energy"
+    },
+    {
+      "name": "RedEnergy",
+      "type": "item",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_energy"
+    },
+    {
+      "name": "EmptyBattery",
+      "type": "item",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "empty_battery"
+    },
+    {
+      "name": "Fullbattery",
+      "type": "item",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fullbattery"
+    },
+    {
+      "name": "HardDrive",
+      "type": "item",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hard_drive"
+    },
+    {
+      "name": "FullHardDrive",
+      "type": "item",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "full_hard_drive"
     }
   ],
   "variable_elements": [
@@ -1149,11 +1641,6 @@
     }
   ],
   "sound_elements": [
-    {
-      "name": "darkmattermusic",
-      "file": "les_friction_-_dark_matter",
-      "category": "record"
-    },
     {
       "name": "glitterandgold",
       "file": "glitterandgold",
@@ -1203,22 +1690,25 @@
       "name": "whoseesyou",
       "file": "who_sees_you",
       "category": "record"
+    },
+    {
+      "name": "darkmattermusic",
+      "file": "les_friction_-_dark_matter",
+      "category": "record"
     }
   ],
   "language_map": {
     "en_us": {
       "item.soulinmod.glowing_nectar_bucket": "GlowingNectar Bucket",
       "item.soulinmod.flower_crownboots": "Flower Crown Boots",
-      "block.soulinmod.crystalized_void": "Crystalized Void",
       "block.soulinmod.rainy_window_no_border": "Rainy Window Border",
-      "block.soulinmod.spookyblock": "Spookyblock",
+      "block.soulinmod.fancy_blue_window_pane": "Fancy Blue Window Pane (White Rim)",
       "block.soulinmod.plant_core_c": "Plant Core C",
-      "item.soulinmod.nectar_bottle": "Nectar Bottle",
+      "item.soulinmod.cinnamon_drink": "Cinnamon Drink",
+      "block.soulinmod.fancy_blue_window": "Fancy Blue Window (White Rim)",
       "item.soulinmod.white_dye_edible": "White Dye (edible)",
-      "itemGroup.tabsoulintary_music": "Soulintary Music",
-      "item.soulinmod.memory_of_the_lost.desc": "Code Vein - Memory Of The Lost",
-      "fluid.nectar": "Nectar",
-      "item.soulinmod.red_dye_edible": "Red Dye (edible)",
+      "block.soulinmod.blue_window_3_white": "Squared Blue Window (White Rim)",
+      "block.soulinmod.fancy_blue_w_indow_off_pane_white": "Fancy Blue Window Pane (Off) (White Rim)",
       "item.soulinmod.dark_matter.desc": "Les Friction - Dark Matter",
       "block.soulinmod.anti_void_stairs": "Anti Void Stairs",
       "block.soulinmod.anti_void_slab": "Anti Void Slab",
@@ -1229,57 +1719,121 @@
       "item.soulinmod.memory_of_the_lost": "Memory Of The Lost",
       "itemGroup.tabsoul_items": "Soulintary",
       "item.soulinmod.void_tendril": "Void Tendril",
-      "item.soulinmod.lime_dye_edible": "Lime Dye (edible)",
+      "block.soulinmod.fancy_orange_pane_b": "Fancy Orange Window Pane (Black Rim)",
       "item.soulinmod.rocket_sword": "Rocket Sword",
-      "item.soulinmod.black_dye_edible": "Black Dye (edible)",
+      "block.soulinmod.orange_window_1_pane": "Clear Orange Window Pane (White Rim)",
       "item.soulinmod.blue_dye_edible": "Blue Dye (edible)",
       "block.soulinmod.glowing_nectar_placable": "Glowing Nectar Block",
       "block.soulinmod.nectar_block_placeholder": "Nectar Block",
       "item.soulinmod.badapple.desc": "Bioweapon - Lily Track 2",
-      "block.soulinmod.anti_void": "Anti Void",
-      "block.soulinmod.void_block": "Void Block",
+      "block.soulinmod.square_blue_window_off_white_pane": "Squared Blue Window Pane (Off) (White Rim)",
       "block.soulinmod.rainy_window_border_pain": "Rainy Window Border Pane",
       "block.soulinmod.void_animated": "Void",
-      "item.soulinmod.bucketemptynectar": "Bucketemptynectar",
-      "block.soulinmod.black_block": "Black Block",
       "block.soulinmod.rainy_window_border": "Rainy Window Border",
+      "block.soulinmod.foowp": "Fancy Orange Window Pane (Off) (White Rim)",
+      "block.soulinmod.fancy_blue_window_off_white": "Fancy Blue Window (Off) (White Rim)",
       "item.soulinmod.flower_crownlegs": "Flower Crown Leggings",
-      "item.soulinmod.flower_crown_chestplate": "Flower Crown Body",
+      "block.soulinmod.fancy_blue_window_black_pane": "Fancy Blue Window Pane (Black Rim)",
       "item.soulinmod.glitter_and_gold.desc": "Barns Courtney - Glitter And Gold",
       "item.soulinmod.brown_dye_edible": "Brown Dye (edible)",
+      "item.soulinmod.red_energy": "Red Energy",
       "item.soulinmod.anti_void_clump": "Anti Void Clump",
       "item.soulinmod.nectar_bottle_empty": "Empty Vial",
-      "item.soulinmod.nectar_bucket_full": "Nectar Bucket",
+      "block.soulinmod.fancy_orange_off": "Fancy Orange Window (Off) (Black Rim)",
+      "block.soulinmod.orange_window_off_2": "Clear Orange Window (Off) (Black Rim)",
+      "item.soulinmod.glowing_amulet": "Glowing Amulet",
+      "block.soulinmod.orange_window_off_1": "Clear Orange Window (Off) (White Rim)",
+      "block.soulinmod.blue_window_1_pane": "Clear Blue Window Pane (White Rim)",
+      "block.soulinmod.orange_window_off_2_pane": "Clear Orange Window Pane (Off) (Black Rim)",
       "block.soulinmod.void_animated_stairs": "Void Stairs",
-      "item.soulinmod.pink_dye_edible": "Pink Dye (edible)",
+      "block.soulinmod.clear_blue_window_3_black": "Squared Blue Window (Black Rim)",
+      "block.soulinmod.foop": "Fancy Orange Window Pane (Off) (Black Rim)",
       "item.soulinmod.glowing_nectar_food": "Vial of Glowing Nectar",
+      "item.soulinmod.fullbattery": "Full Battery",
       "block.soulinmod.rainy_window_pane": "Rainy Window Pane",
+      "block.soulinmod.fancy_orange_window_white": "Fancy Orange Window (White Rim)",
       "item.soulinmod.bembo_feather": "Bembo Feather",
+      "block.soulinmod.blue_window_3": "Clear Blue Window Pane (Black Rim)",
+      "item.soulinmod.full_hard_drive": "Full Hard Drive",
+      "block.soulinmod.blue_window_2": "Clear Blue Window (Black Rim)",
+      "block.soulinmod.orange_window_off_blackpane": "Squared Orange Window Pane (Off) (Black Rim)",
       "block.soulinmod.explosive_void": "Explosive Void",
       "item.soulinmod.mail_sachel": "Mail Sachel",
+      "block.soulinmod.blue_window_1": "Clear Blue Window (White Rim)",
+      "item.soulinmod.corrupted_amulet": "Amulet?",
       "item.soulinmod.cyan_dye_edible": "Cyan Dye (edible)",
       "item.soulinmod.nectar_bottle_food": "Vial of Nectar",
-      "item.soulinmod.flower_crownbody": "Flower Crown Body",
+      "block.soulinmod.foow": "Fancy Orange Window (Off) (White Rim)",
       "item.soulinmod.green_dye_edible": "Green Dye (edible)",
-      "item.soulinmod.flower_crown_boots": "Flower Crown Boots",
-      "item.soulinmod.yellow_dye_edible": "Yellow Dye (edible)",
+      "item.soulinmod.black_keycard": "Black Keycard",
       "item.soulinmod.light_gray_dye_edible": "Light Gray Dye (edible)",
-      "item.soulinmod.mortar_and_pestle": "Mortar And Pestle",
+      "block.soulinmod.square_blue_window_off_black_pane": "Squared Blue Window Pane (Off) (Black Rim)",
+      "block.soulinmod.orange_window_off_2_white_pane": "Fancy Orange Window Pane (Off) (White Rim)",
       "block.soulinmod.hardened_void": "Hardened Void",
       "block.soulinmod.void_animated_slab": "Void Slab",
+      "block.soulinmod.blue_window_off_pane": "Clear Blue Window Pane (Off) (White Rim)",
       "item.soulinmod.purple_dye_edible": "Black Dye (edible)",
       "item.soulinmod.flower_crown_helmet": "Flower Crown",
+      "block.soulinmod.orange_window_1": "Clear Orange Window (White Rim)",
+      "block.soulinmod.orange_window_2": "Clear Orange Window (Black Rim)",
+      "item.soulinmod.orange_dye_edible": "Orange Dye (edible)",
+      "fluid.glowing_nectar": "GlowingNectar",
+      "item.soulinmod.bucket_of_blood": "Bucket Of Blood",
+      "block.soulinmod.crystalized_void": "Crystalized Void",
+      "block.soulinmod.orange_window_off_black": "Squared Orange Window (Off) (Black Rim)",
+      "block.soulinmod.spookyblock": "Spookyblock",
+      "block.soulinmod.orange_window_3_white": "Squared Orange Window (White Rim)",
+      "item.soulinmod.nectar_bottle": "Nectar Bottle",
+      "itemGroup.tabsoulintary_music": "Soulintary Music",
+      "item.soulinmod.memory_of_the_lost.desc": "Code Vein - Memory Of The Lost",
+      "block.soulinmod.square_blue_window_off_black": "Squared Blue Window (Off) (Black Rim)",
+      "fluid.nectar": "Nectar",
+      "item.soulinmod.red_dye_edible": "Red Dye (edible)",
+      "item.soulinmod.crimson_tea": "Crimson Tea",
+      "block.soulinmod.orange_window_3_black": "Squared Orange Window (Black Rim)",
+      "block.soulinmod.square_blue_window_off_white": "Squared Blue Window (Off) (White Rim)",
+      "item.soulinmod.lime_dye_edible": "Lime Dye (edible)",
+      "block.soulinmod.orange_windowoff_2_white": "Squared Orange Window (Off) (White Rim)",
+      "block.soulinmod.fancy_blue_window_off": "Fancy Blue Window (Off) (Black Rim)",
+      "block.soulinmod.blue_window_off": "Clear Blue Window (Off) (White Rim)",
+      "item.soulinmod.black_dye_edible": "Black Dye (edible)",
+      "item.soulinmod.amulet": "Amulet",
+      "block.soulinmod.blue_window_off_2_pane": "Clear Blue Window Pane (Off) (Black Rim)",
+      "block.soulinmod.anti_void": "Anti Void",
+      "block.soulinmod.void_block": "Void Block",
+      "block.soulinmod.blue_w_indow_off_2": "Clear Blue Window (Off) (Black Rim)",
+      "item.soulinmod.bloody_amulet": "Bloody Amulet",
+      "block.soulinmod.orange_window_off_pane": "Clear Orange Window Pane (Off) (White Rim)",
+      "block.soulinmod.black_block": "Black Block",
+      "block.soulinmod.fancy_orange_window_black": "Fancy Orange Window (Black Rim)",
+      "item.soulinmod.flower_crown_chestplate": "Flower Crown Body",
+      "block.soulinmod.orange_window_2_pane": "Clear Orange Window Pane (Black Rim)",
+      "item.soulinmod.pink_dye_edible": "Pink Dye (edible)",
+      "block.soulinmod.fancy_orange_window_pane": "Fancy Orange Window Pane (White Rim)",
+      "item.soulinmod.flower_crownbody": "Flower Crown Body",
+      "item.soulinmod.flower_crown_boots": "Flower Crown Boots",
+      "block.soulinmod.orange_window_3_black_pane": "Squared Orange Window Pane (Black Rim)",
+      "block.soulinmod.blue_window_3_white_pane": "Squared Blue Window Pane (White Rim)",
+      "item.soulinmod.yellow_dye_edible": "Yellow Dye (edible)",
+      "item.soulinmod.blue_energy": "Blue Energy",
+      "item.soulinmod.mortar_and_pestle": "Mortar And Pestle",
+      "block.soulinmod.fancy_blue_window_black": "Fancy Blue Window (Black Rim)",
+      "item.soulinmod.cracked_amulet": "Cracked Amulet",
       "block.soulinmod.star_chunk": "Star Chunk",
+      "item.soulinmod.fancy_keycard": "Fancy Keycard",
       "item.soulinmod.glitter_and_gold": "Glitter And Gold",
       "item.soulinmod.light_blue_dye_edible": "Light Blue Dye (edible)",
+      "block.soulinmod.clear_blue_window_3_black_pane": "Squared Blue Window Pane (Black Rim)",
       "item.soulinmod.flower_crown_leggings": "Flower Crown Leggings",
       "item.soulinmod.void_essense": "Void Essense",
       "item.soulinmod.flower_crownhelmet": "Flower Crown",
-      "item.soulinmod.lily_organic_step": "Lily Organic Step",
+      "item.soulinmod.empty_battery": "Empty Battery",
+      "item.soulinmod.lily_organic_step": "Organic Step",
+      "block.soulinmod.fancy_blue_window_off_pane": "Fancy Blue Window Pane (Off) (Black Rim)",
+      "block.soulinmod.orange_window_3_white_pane": "Squared Orange Window Pane (White Rim)",
       "item.soulinmod.magenta_dye_edible": "Magenta Dye (edible)",
-      "item.soulinmod.nectar_bucket": "Nectar Bucket",
-      "item.soulinmod.orange_dye_edible": "Orange Dye (edible)",
-      "fluid.glowing_nectar": "GlowingNectar"
+      "item.soulinmod.hard_drive": "Hard Drive",
+      "item.soulinmod.nectar_bucket": "Nectar Bucket"
     }
   },
   "workspaceSettings": {
@@ -1294,7 +1848,8 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.14.4",
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.alkia.soulinmod",
     "lockBaseModFiles": false
   },
