@@ -1,6 +1,5 @@
 {
   "parent": "forge:item/bucket_drip",
   "loader": "forge:bucket",
-  "fluid": "soulinmod:glowing_nectar",
-  "transform": "forge:default-item"
+  "fluid": "soulinmod:glowing_nectar"
 }

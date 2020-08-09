@@ -1294,9 +1294,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.14.4",
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.alkia.soulinmod",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000322116
+  "mcreatorVersion": 202000432115
 }

@@ -326,6 +326,15 @@ public class BemboGUIGui extends SoulinmodModElements.ModElement {
 		}
 
 		@Override
+		public boolean keyPressed(int key, int b, int c) {
+			if (key == 256) {
+				this.minecraft.player.closeScreen();
+				return true;
+			}
+			return super.keyPressed(key, b, c);
+		}
+
+		@Override
 		public void tick() {
 			super.tick();
 		}
@@ -333,15 +342,6 @@ public class BemboGUIGui extends SoulinmodModElements.ModElement {
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
 			this.font.drawString("Graphic design is my passion pt 2", 7, 9, -16711885);
-		}
-
-		@Override
-		public boolean keyPressed(int key, int b, int c) {
-			if (key == 256) {
-				this.minecraft.player.closeScreen();
-				return true;
-			}
-			return super.keyPressed(key, b, c);
 		}
 
 		@Override
