@@ -6,12 +6,9 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.Entity;
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
 import net.alkia.soulinmod.procedures.LilyOrganicStepItemInInventoryTickProcedure;
@@ -19,7 +16,6 @@ import net.alkia.soulinmod.itemgroup.SoulItemsItemGroup;
 import net.alkia.soulinmod.SoulinmodModElements;
 
 import java.util.Map;
-import java.util.List;
 import java.util.HashMap;
 
 @SoulinmodModElements.ModElement.Tag
@@ -59,12 +55,6 @@ public class LilyOrganicStepItem extends SoulinmodModElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		public boolean hasEffect(ItemStack itemstack) {
 			return true;
-		}
-
-		@Override
-		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("An item which grants Lily the ability to turn dirt to grass where she walks."));
 		}
 
 		@Override
