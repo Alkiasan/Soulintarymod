@@ -48,8 +48,6 @@ public class SoulinmodModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public SoulinmodModElements() {
-		sounds.put(new ResourceLocation("soulinmod", "darkmattermusic"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("soulinmod", "darkmattermusic")));
 		sounds.put(new ResourceLocation("soulinmod", "glitterandgold"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("soulinmod", "glitterandgold")));
 		sounds.put(new ResourceLocation("soulinmod", "memoryofthelost"),
@@ -65,6 +63,8 @@ public class SoulinmodModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("soulinmod", "bravenewworld")));
 		sounds.put(new ResourceLocation("soulinmod", "whoseesyou"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("soulinmod", "whoseesyou")));
+		sounds.put(new ResourceLocation("soulinmod", "darkmattermusic"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("soulinmod", "darkmattermusic")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("soulinmod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
