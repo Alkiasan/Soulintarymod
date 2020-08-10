@@ -68,7 +68,7 @@ public class FlowerCrownItem extends SoulinmodModElements.ModElement {
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(SoulItemsItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "soulinmod:textures/models/armor/flower_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "soulinmod:textures/models/armor/falower__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("flower_crown_helmet"));
 	}

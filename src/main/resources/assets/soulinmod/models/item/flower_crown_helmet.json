@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "soulinmod:items/flower_helmet_overlay"
+    "layer0": "soulinmod:items/template"
   }
 }

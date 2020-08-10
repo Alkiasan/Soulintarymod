@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "template",
+    "texture": "grasssteptexture",
     "customModelName": "Normal",
-    "name": "Lily Organic Step",
+    "name": "Organic Step",
     "creativeTab": {
       "value": "CUSTOM:SoulItems"
     },
@@ -19,7 +19,9 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
+    "specialInfo": [
+      "An item which grants Lily the ability to turn dirt to grass where she walks."
+    ],
     "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

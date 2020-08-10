@@ -3,7 +3,7 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "flower_helmet_overlay",
+    "textureHelmet": "template",
     "enableBody": false,
     "textureBody": "",
     "enableLeggings": false,
@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:SoulItems"
     },
-    "armorTextureFile": "flower",
+    "armorTextureFile": "falower_",
     "helmetName": "Flower Crown",
     "bodyName": "Flower Crown Body",
     "leggingsName": "Flower Crown Leggings",
